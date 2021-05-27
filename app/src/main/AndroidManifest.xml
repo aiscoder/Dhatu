@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aksharas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shabdha_logo"
+        android:label="@string/Shabdha"
+        android:roundIcon="@drawable/shabdha_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aksharas">
+        <activity android:name=".actualthesaurus"/>
+        <activity android:name=".dictionary" />
+        <activity android:name=".splashsscreen">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter> </activity>
+        <activity android:name=".originfile" />
+        <activity android:name=".maheswarasutra" />
+        <activity android:name=".thesaurus" />
+        <activity android:name=".learning" />
+        <activity android:name=".database" />
+        <activity android:name=".homepage" />
+        <activity android:name=".a" />
+        <activity android:name=".aksharas" />
+        <activity android:name=".quiz.boyC"/>
+        <activity android:name=".quiz.boyW"/>
+        <activity android:name=".quiz.fruitC"/>
+        <activity android:name=".quiz.fruitW"/>
+        <activity android:name=".quiz.girlC"/>
+        <activity android:name=".quiz.girlW"/>
+        <activity android:name=".quiz.Question2"/>
+        <activity android:name=".quiz.Question3"/>
+        <activity android:name=".quiz.QuestionPage"/>
+
+
+    </application>
+
+</manifest>

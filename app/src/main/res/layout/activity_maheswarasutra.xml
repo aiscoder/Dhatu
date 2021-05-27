@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maheswara_sutra"
+    tools:context=".maheswarasutra"
+    android:backgroundTintMode="src_over"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="615dp"
+        android:text="Maheshwarasutra"
+        android:textColor="#373232"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_views"
+        android:layout_width="369dp"
+        android:layout_height="234dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="221dp"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:videoId="3B6-u8c7Xp8">
+
+    </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="521dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="2dp"
+        android:text="अ इ उ ण्। ऋ ऌ क्। ए ओ ङ्। ऐ औ च्। ह य व र ट्। ल ण्। ञ म ङ ण न म्। झ भ ञ्। घ ढ ध ष्। ज ब ग ड द श्। ख फ छ ठ थ च ट त व्। क प य्। श ष स र्। ह ल्।"
+        android:textColor="#090909"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
