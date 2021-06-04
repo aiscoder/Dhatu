@@ -40,8 +40,5 @@ public class homepage extends Activity {
         Intent intent = new Intent(this,thesaurus.class);
         startActivity(intent);
     }
-
-
-
 }
 
