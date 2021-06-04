@@ -37,7 +37,7 @@ public class homepage extends Activity {
     }
 
     public void openthesaurus () {
-        Intent intent = new Intent(this,thesaurus.class);
+        Intent intent = new Intent(this, thesaurus.class);
         startActivity(intent);
     }
 }
