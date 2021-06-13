@@ -21,8 +21,8 @@ public class a extends AppCompatActivity {
 
 
 
-        agni = MediaPlayer.create(a.this, R.raw.agniactual);
-        final MediaPlayer agni = MediaPlayer.create(this, R.raw.agniactual);
+        agni = MediaPlayer.create(a.this, R.raw.agni);
+        final MediaPlayer agni = MediaPlayer.create(this, R.raw.agni);
 
         amba = MediaPlayer.create(a.this, R.raw.amba);
         final MediaPlayer amba = MediaPlayer.create(this, R.raw.amba);

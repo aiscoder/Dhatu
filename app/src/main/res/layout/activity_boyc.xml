@@ -7,66 +7,96 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
+        android:id="@+id/score3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:padding="5dp"
+        android:text="@string/score1"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ff0000"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/score4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/score4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="@string/score2"
+        android:padding="5dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFD700"
+        android:background="@drawable/border"
+        app:layout_constraintStart_toEndOf="@+id/score3"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/textView4"
         android:layout_width="356dp"
         android:layout_height="78dp"
+        android:layout_marginTop="40dp"
         android:background="#6DDC9B"
         android:gravity="center"
-        android:text="Correct Answer"
+        android:text="@string/correct"
         android:textColor="#0D0516"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="30sp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="43dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/sanskritTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/boy" />
 
     <com.example.aksharas.quiz.SanskritTextView
         android:id="@+id/sanskritTextView"
-        android:layout_width="109dp"
-        android:layout_height="50dp"
+        android:layout_width="81dp"
+        android:layout_height="56dp"
         android:layout_marginTop="20dp"
+        android:layout_marginStart="70dp"
         android:text="बालः"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="36sp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintBottom_toTopOf="@+id/textViewp"
+        app:layout_constraintEnd_toStartOf="@+id/boysound"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.015" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/boysound"
         android:layout_width="66dp"
         android:layout_height="63dp"
         android:layout_gravity="center"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="14dp"
         android:background="#9B989D"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textViewp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toEndOf="@+id/sanskritTextView"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
 
     <TextView
+        android:id="@+id/textViewp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -75,7 +105,7 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,41 +116,38 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="(Linga) (Masculine Gender)"
+        android:text="@string/boy"
         android:textColor="@color/black"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="25sp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@+id/back2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.595"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.81" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewp" />
 
     <Button
         android:id="@+id/back2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go Back"
+        android:text="@string/back"
         app:backgroundTint="#00BFA5"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintEnd_toStartOf="@+id/nxt"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.923" />
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Button
         android:id="@+id/nxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next Question"
+        android:text="@string/next"
         app:backgroundTint="#00BFA5"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintStart_toEndOf="@+id/back2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.738"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.923" />
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

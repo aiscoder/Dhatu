@@ -6,33 +6,63 @@
     android:background="#A166DC"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <TextView
+        android:id="@+id/score5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:padding="5dp"
+        android:text="@string/score1"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ff0000"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/score6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/score6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="@string/score2"
+        android:padding="5dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFD700"
+        android:background="@drawable/border"
+        app:layout_constraintStart_toEndOf="@+id/score5"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="381dp"
-        android:layout_height="108dp"
+        android:layout_width="356dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="40dp"
         android:background="#F47979"
         android:gravity="center"
-        android:text="Wrong Answer"
+        android:text="@string/wrong"
         android:textColor="#0D0516"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="30sp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="43dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/sanskritTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/boy" />
 
     <com.example.aksharas.quiz.SanskritTextView
@@ -40,12 +70,14 @@
         android:layout_width="81dp"
         android:layout_height="56dp"
         android:layout_marginTop="20dp"
+        android:layout_marginStart="70dp"
         android:text="बालः"
         android:textColor="@color/black"
         android:textSize="36sp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toStartOf="@+id/boysound"
         app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
@@ -56,15 +88,13 @@
         android:layout_width="66dp"
         android:layout_height="63dp"
         android:layout_gravity="center"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="14dp"
         android:background="#9B989D"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toEndOf="@+id/sanskritTextView"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
 
     <TextView
@@ -77,7 +107,7 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,14 +118,15 @@
         android:id="@+id/textView13"
         android:layout_width="350dp"
         android:layout_height="36dp"
-        android:text="(Linga) (Masculine Gender)"
+        android:text="@string/boy"
         android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="25sp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@+id/back2b"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.737"
+        android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
         app:layout_constraintVertical_bias="0.853" />
 
     <Button
@@ -104,11 +135,12 @@
         android:layout_height="wrap_content"
         android:text="Main menu"
         app:backgroundTint="#00BFA5"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
         app:layout_constraintVertical_bias="0.957" />
 
 

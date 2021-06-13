@@ -2,4 +2,24 @@
     <string name="app_name" translatable="false">Shabdha</string>
     <string name="shabdha" translatable="false">Shabdha</string>
     <string name="Shabdha">Shabdha</string>
+    <string name="score1">Points: 0</string>
+    <string name="score2">Currency: 0</string>
+
+
+    <!-- GENERAL -->
+    <string name="next">next</string>
+    <string name="back">back</string>
+    <string name="correct">Correct Answer!</string>
+    <string name="wrong">Wrong Answer...</string>
+
+
+    <!-- LEVEL 1 -->
+    <string name="l1">- 1 -</string>
+    <string name="obj1">Objective: Familiarity with <i>lingas</i>.</string>
+    <string name="q11">Choose the word for <u>boy</u>.</string>
+    <string name="q12">Choose the word for <u>girl</u>.</string>
+    <string name="q13">Choose the word for <u>fruit</u>.</string>
+    <string name="boy"><i>Linga:</i> Masculine</string>
+    <string name="girl"><i>Linga:</i> Feminine</string>
+    <string name="neutral"><i>Linga:</i> Neuter</string>
 </resources>
