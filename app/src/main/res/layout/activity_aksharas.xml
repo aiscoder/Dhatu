@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A166DC"
-    tools:context=".aksharas"
-    android:orientation="vertical">
-    
-    
+    android:background="#FBFBFB"
+    android:orientation="vertical"
+    tools:context=".aksharas">
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -43,7 +42,7 @@
                     android:text="अ"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    app:backgroundTint="#6E2BBA" />
+                    app:backgroundTint="#3FB12C" />
 
                 <Button
                     android:id="@+id/aa"
@@ -55,8 +54,8 @@
                     android:layout_margin="5sp"
                     android:text="आ"
                     android:textSize="24sp"
-                    app:backgroundTint="#6E2BBA"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    app:backgroundTint="#3FB12C" />
 
                 <Button
                     android:id="@+id/e"
@@ -64,10 +63,10 @@
                     android:layout_height="match_parent"
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
-                    android:textSize="24sp"
                     android:text="इ"
-                    app:backgroundTint="#6E2BBA"
-                    android:textStyle="bold"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#3FB12C" />
 
                 <Button
                     android:id="@+id/ee"
@@ -75,10 +74,10 @@
                     android:layout_height="match_parent"
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
-                    android:textSize="24sp"
                     android:text=" ई "
-                    app:backgroundTint="#6E2BBA"
-                    android:textStyle="bold"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#3FB12C" />
 
                 <Button
                     android:id="@+id/u"
@@ -89,7 +88,7 @@
                     android:text="उ"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    app:backgroundTint="#6E2BBA" />
+                    app:backgroundTint="#3FB12C" />
 
                 <Button
                     android:id="@+id/o"
@@ -100,7 +99,7 @@
                     android:text="ऊ"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    app:backgroundTint="#6E2BBA" />
+                    app:backgroundTint="#3FB12C" />
 
 
                 <Button
@@ -112,7 +111,7 @@
                     android:text="ऋ"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    app:backgroundTint="#6E2BBA" />
+                    app:backgroundTint="#3FB12C" />
 
                 <Button
                     android:id="@+id/ru"
@@ -123,7 +122,7 @@
                     android:text="ॠ"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    app:backgroundTint="#6E2BBA" />
+                    app:backgroundTint="#3FB12C" />
 
                 <Button
                     android:id="@+id/lru"
@@ -134,7 +133,7 @@
                     android:text="लृ"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    app:backgroundTint="#6E2BBA" />
+                    app:backgroundTint="#3FB12C" />
 
                 <Button
                     android:id="@+id/ey"
@@ -143,9 +142,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ए"
-                    android:textStyle="bold"
                     android:textSize="24sp"
-                    app:backgroundTint="#6E2BBA" />
+                    android:textStyle="bold"
+                    app:backgroundTint="#3FB12C" />
 
                 <Button
                     android:id="@+id/ai"
@@ -156,7 +155,7 @@
                     android:text="ऐ"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    app:backgroundTint="#6E2BBA"/>
+                    app:backgroundTint="#3FB12C" />
 
                 <Button
                     android:id="@+id/oh"
@@ -167,7 +166,7 @@
                     android:text="ओ"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    app:backgroundTint="#6E2BBA"/>
+                    app:backgroundTint="#3FB12C" />
 
                 <Button
                     android:id="@+id/au"
@@ -178,7 +177,7 @@
                     android:text="औ"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    app:backgroundTint="#6E2BBA"/>
+                    app:backgroundTint="#3FB12C" />
 
 
             </GridLayout>
@@ -204,9 +203,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5sp"
                     android:text="अं"
-                    android:textStyle="bold"
                     android:textSize="24sp"
-                    app:backgroundTint="#be03fc" />
+                    android:textStyle="bold"
+                    app:backgroundTint="#44E300" />
 
                 <Button
                     android:id="@+id/aha"
@@ -216,7 +215,7 @@
                     android:text="अः"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    app:backgroundTint="#be03fc" />
+                    app:backgroundTint="#44E300" />
 
 
             </GridLayout>
@@ -235,8 +234,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10sp"
                 android:columnCount="5"
-                android:rowCount="6"
-                >
+                android:rowCount="6">
 
                 <Button
                     android:id="@+id/ka"
@@ -245,8 +243,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="क"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/kaa"
@@ -254,9 +253,10 @@
                     android:layout_height="match_parent"
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
-                    android:textStyle="bold"
                     android:text="ख"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/ga"
@@ -265,8 +265,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ग"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/gha"
@@ -275,8 +276,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text=" घ"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/nya"
@@ -285,8 +287,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ङ"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/cha"
@@ -295,8 +298,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="च"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/chaa"
@@ -305,8 +309,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="छ"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/ja"
@@ -315,8 +320,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ज"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/jha"
@@ -325,8 +331,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text=" झ"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/nia"
@@ -335,8 +342,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ञ"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/ta"
@@ -345,8 +353,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ट"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/taa"
@@ -355,8 +364,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ठ"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/da"
@@ -365,8 +375,10 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ड"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
+
                 <Button
                     android:id="@+id/daa"
                     android:layout_width="35sp"
@@ -374,8 +386,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ढ"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/na"
@@ -384,8 +397,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text=" ण"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/tha"
@@ -394,8 +408,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="त"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/thaa"
@@ -404,8 +419,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text=" थ"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/dha"
@@ -414,8 +430,10 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text=" द"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
+
                 <Button
                     android:id="@+id/dhaa"
                     android:layout_width="35sp"
@@ -423,8 +441,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ध"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/naa"
@@ -433,8 +452,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text=" न"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/pa"
@@ -443,8 +463,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="प"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/pha"
@@ -453,8 +474,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="फ"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/ba"
@@ -463,8 +485,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text=" ब"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/bha"
@@ -473,8 +496,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text=" भ"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/ma"
@@ -483,10 +507,12 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="म"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
             </GridLayout>
+
             <GridLayout
                 android:layout_width="380dp"
                 android:layout_height="wrap_content"
@@ -501,8 +527,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="य"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/ra"
@@ -511,8 +538,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="र"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/la"
@@ -521,8 +549,10 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ल"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
+
                 <Button
                     android:id="@+id/va"
                     android:layout_width="35sp"
@@ -530,8 +560,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="व"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/she"
@@ -540,8 +571,10 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="श"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
+
                 <Button
                     android:id="@+id/sha"
                     android:layout_width="35sp"
@@ -549,8 +582,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ष"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/sa"
@@ -559,8 +593,9 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="स"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    app:backgroundTint="#259A04" />
 
                 <Button
                     android:id="@+id/ha"
@@ -569,30 +604,18 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="5sp"
                     android:text="ह"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    android:textSize="24sp"/>
-
+                    app:backgroundTint="#259A04" />
 
 
             </GridLayout>
-
-
-
-
-
-
-
-
-
-
-
 
 
         </LinearLayout>
 
 
     </RelativeLayout>
-
 
 
 </ScrollView>

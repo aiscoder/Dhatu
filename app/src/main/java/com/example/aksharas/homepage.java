@@ -1,12 +1,17 @@
 package com.example.aksharas;
 
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.viewpager.widget.ViewPager;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+
+import com.google.android.material.tabs.TabItem;
+import com.google.android.material.tabs.TabLayout;
 
 public class homepage extends Activity {
 
@@ -41,4 +46,28 @@ public class homepage extends Activity {
         startActivity(intent);
     }
 }
+
+
+
+/*public class homepage extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_homepage);
+
+        TabLayout tabLayout = findViewById(R.id.tabLayout2);
+        TabItem tabLearning = findViewById(R.id.learning);
+        TabItem tabDatabase = findViewById(R.id.button2);
+        TabItem tabThesaurus = findViewById(R.id.button3);
+        ViewPager viewPager = findViewById(R.id.viewPager);
+
+        PagerAdapter pagerAdapter = new PagerAdapter (getSupportFragmentManager (), tabLayout.getTabCount ()  );
+
+        viewPager.setAdapter ( pagerAdapter );
+
+    }
+} */
+
+
 

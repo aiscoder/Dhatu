@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A166DC">
+    android:background="#FFFFFF">
+
 
     <TextView
         android:id="@+id/textView6"
@@ -16,7 +16,7 @@
         android:text="Welcome to Dhatu:"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#252323"
+        android:textColor="#004507"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,7 +34,7 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="24dp"
         android:text="Start with Sanskrit speaking here!"
-        android:textColor="#F6F0F0"
+        android:textColor="#244005"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +46,7 @@
         android:layout_height="92dp"
         android:layout_gravity="center"
         android:layout_marginTop="13dp"
-        app:cardBackgroundColor="#6E2BBA"
+        app:cardBackgroundColor="#09C303"
         app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +83,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="21dp"
         android:text="Your Sanskrit Database in one click"
-        android:textColor="#FFFFFF"
+        android:textColor="#125300"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -97,13 +97,14 @@
         android:layout_row="0"
         android:layout_gravity="center"
         android:layout_marginTop="12dp"
-        app:cardBackgroundColor="#6E2BBA"
+        app:cardBackgroundColor="#01C50A"
         app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.005">
 
         <TextView
             android:id="@+id/textView10O"
@@ -134,7 +135,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="11dp"
         android:text="Search all your words here!"
-        android:textColor="#FFFBFB"
+        android:textColor="#1B6A00"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -147,7 +148,7 @@
         android:layout_row="0"
         android:layout_gravity="center"
         android:layout_marginTop="17dp"
-        app:cardBackgroundColor="#6E3AB6"
+        app:cardBackgroundColor="#2BC600"
         app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -179,8 +180,8 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="87dp"
-        android:layout_height="89dp"
+        android:layout_width="106dp"
+        android:layout_height="113dp"
 
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
@@ -188,5 +189,44 @@
         app:layout_constraintTop_toBottomOf="@+id/button3"
         tools:srcCompat="@drawable/dhatu" />
 
+
+    <!--    <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tabIconTint="@android:color/holo_green_light"
+            app:tabIndicatorColor="#23E800"
+            app:tabTextColor="#000000">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/learning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LEARNING" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DATABASE" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THESAURUS" />
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
