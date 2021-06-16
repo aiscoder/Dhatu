@@ -32,6 +32,7 @@ public class database extends AppCompatActivity {
         Intent intent = new Intent(this, originfile.class);
         startActivity(intent);
     }
+
 }
     /*public class database extends Fragment {
         @Override

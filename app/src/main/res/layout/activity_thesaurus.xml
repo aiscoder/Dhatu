@@ -28,7 +28,7 @@
         android:layout_width="296dp"
         android:layout_height="74dp"
         android:text="THESAURUS"
-        android:textColor="#000000"
+        android:textColor="#0A1300"
         android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

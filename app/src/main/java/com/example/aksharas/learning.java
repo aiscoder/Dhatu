@@ -29,8 +29,6 @@ public class learning extends AppCompatActivity {
         Intent intent = new Intent(this, QuestionPage.class);
         startActivity(intent);
     }
-
-
 }
 
    /* public class learning extends Fragment {

@@ -177,7 +177,7 @@
                     android:text="औ"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    app:backgroundTint="#3FB12C" />
+                    app:backgroundTint="#3EAF2B" />
 
 
             </GridLayout>

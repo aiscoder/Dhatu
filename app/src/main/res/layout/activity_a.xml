@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A166DC"
+    android:background="#F6F8F5"
     tools:context=".a">
 
 
@@ -17,20 +16,20 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="211dp"
-        android:layout_marginTop="484dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="197dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="212dp"
         android:text="अम्बा Amba"
         android:textSize="14sp"
         android:textStyle="bold"
+        app:backgroundTint="#5EB528"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.81"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.785" />
-
 
     <ImageView
         android:id="@+id/imagepray"
@@ -42,12 +41,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="244dp"
-        android:layout_marginLeft="244dp"
-        android:layout_marginTop="549dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginRight="58dp"
-        android:layout_marginBottom="112dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginLeft="236dp"
+        android:layout_marginTop="538dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="123dp"
         app:srcCompat="@drawable/pray" />
 
     <ImageView
@@ -84,6 +83,7 @@
         android:text="आर्ति Arti"
         android:textSize="14sp"
         android:textStyle="bold"
+        app:backgroundTint="#5EB528"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.841"
@@ -106,6 +106,7 @@
         android:text="अन्न Anna"
         android:textSize="14sp"
         android:textStyle="bold"
+        app:backgroundTint="#5EB528"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.185"
@@ -131,6 +132,7 @@
         android:text="SOUND"
         android:textSize="18sp"
         android:textStyle="bold"
+        app:backgroundTint="#5EB528"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -151,7 +153,7 @@
         android:layout_marginRight="46dp"
         android:layout_marginBottom="340dp"
         android:text="WORDS WITH अ :"
-        android:textColor="#FFFFFF"
+        android:textColor="#014701"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -198,6 +200,7 @@
         android:text="आ"
         android:textSize="18sp"
         android:textStyle="bold"
+        app:backgroundTint="#40B126"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.962"
@@ -224,6 +227,7 @@
         android:text="अग्नि    Agni"
         android:textSize="14sp"
         android:textStyle="bold"
+        app:backgroundTint="#5EB528"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.192"
@@ -249,7 +253,8 @@
         android:layout_marginBottom="653dp"
         android:text="BACK"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:backgroundTint="#5EB528" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -261,12 +266,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="232dp"
-        android:layout_marginLeft="232dp"
-        android:layout_marginTop="401dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginRight="70dp"
-        android:layout_marginBottom="260dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="391dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="270dp"
         app:srcCompat="@drawable/amma" />
 
     <ImageView

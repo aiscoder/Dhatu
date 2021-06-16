@@ -33,7 +33,6 @@ public class thesaurus extends AppCompatActivity {
         Intent intent = new Intent(this, actualthesaurus.class);
         startActivity(intent);
     }
-
 }
 
 /*public class thesaurus extends Fragment {

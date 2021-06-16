@@ -57,7 +57,7 @@
         android:layout_width="405dp"
         android:layout_height="69dp"
         android:text="ORIGINS OF SANSKRIT"
-        android:textColor="#217A00"
+        android:textColor="#1D6C00"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

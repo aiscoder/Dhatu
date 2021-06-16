@@ -87,7 +87,7 @@
         android:layout_width="311dp"
         android:layout_height="57dp"
         android:text="SANSKRIT DATABASE"
-        android:textColor="#296A00"
+        android:textColor="#2D7300"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

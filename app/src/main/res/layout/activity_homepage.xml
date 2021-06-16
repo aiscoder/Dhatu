@@ -16,7 +16,7 @@
         android:text="Welcome to Dhatu:"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#004507"
+        android:textColor="#003E06"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
