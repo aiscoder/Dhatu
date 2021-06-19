@@ -12,259 +12,160 @@
         android:layout_height="wrap_content">
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="900dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="56dp"
-            android:layout_marginEnd="@android:dimen/app_icon_size"
-            android:layout_marginBottom="@android:dimen/app_icon_size"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+
+            android:layout_marginEnd="53dp"
+
             android:orientation="vertical">
 
 
             <TextView
                 android:id="@+id/textView16"
-                android:layout_width="298dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sanskrit Learning"
+                android:text="SANSKRIT LEARNING"
                 android:textColor="#0A4000"
-                android:textSize="36sp" />
+                android:textSize="25sp"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                app:layout_constraintBottom_toTopOf="@+id/basics"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-            <androidx.cardview.widget.CardView
+
+            <Button
                 android:id="@+id/basics"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_row="0"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginTop="20dp"
-                app:cardBackgroundColor="#47B601"
-                app:cardCornerRadius="15dp">
-
-                <TextView
-                    android:layout_width="74dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_margin="15dp"
-                    android:clickable="true"
-                    android:text="BASICS"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_row="0"
-
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="100dp"
-                android:layout_marginTop="30dp"
-                app:cardBackgroundColor="#47B601"
-                app:cardCornerRadius="15dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_margin="15dp"
-                    android:text="BASICS 2"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_row="0"
-
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="200dp"
-                android:layout_marginTop="30dp"
-                app:cardBackgroundColor="#47B601"
-                app:cardCornerRadius="15dp">
-
-                <TextView
-                    android:layout_width="74dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="15dp"
-                    android:text="PEOPLE"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-            </androidx.cardview.widget.CardView>
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="BASICS"
+                android:textSize="17sp"
+                app:backgroundTint="#47B601"
+                android:textAlignment="center"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                android:layout_marginRight="120dp"
+                app:layout_constraintBottom_toTopOf="@id/cardView23"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView16" />
 
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_row="0"
-
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="100dp"
-                android:layout_marginTop="30dp"
-                app:cardBackgroundColor="#47B601"
-                app:cardCornerRadius="15dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="right"
-                    android:layout_margin="15dp"
-                    android:text="LEARNING"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-            </androidx.cardview.widget.CardView>
+            <Button
+                android:id="@+id/cardView23"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="BASICS II"
+                android:textSize="17sp"
+                app:backgroundTint="#47B601"
+                android:textAlignment="center"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                app:layout_constraintBottom_toTopOf="@id/people"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/basics" />
 
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_row="0"
 
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginTop="30dp"
-                app:cardBackgroundColor="#47B601"
-                app:cardCornerRadius="15dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="15dp"
-                    android:text="LEARNING"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-            </androidx.cardview.widget.CardView>
+            <Button
+                android:id="@+id/people"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="people"
+                android:textSize="17sp"
+                app:backgroundTint="#47B601"
+                android:textAlignment="center"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                android:layout_marginLeft="120dp"
+                app:layout_constraintBottom_toTopOf="@id/learning1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardView23" />
 
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_row="0"
-
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="100dp"
-                android:layout_marginTop="30dp"
-                app:cardBackgroundColor="#47B601"
-                app:cardCornerRadius="15dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="15dp"
-                    android:text="LEARNING"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-            </androidx.cardview.widget.CardView>
+            <Button
+                android:id="@+id/learning1"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="Learning"
+                android:textSize="17sp"
+                app:backgroundTint="#47B601"
+                android:textAlignment="center"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                app:layout_constraintBottom_toTopOf="@id/learning2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/people" />
 
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_row="0"
-
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="200dp"
-                android:layout_marginTop="30dp"
-                app:cardBackgroundColor="#47B601"
-                app:cardCornerRadius="15dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="15dp"
-                    android:text="LEARNING"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_row="0"
-
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="100dp"
-                android:layout_marginTop="30dp"
-                app:cardBackgroundColor="#47B601"
-                app:cardCornerRadius="15dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="15dp"
-                    android:text="LEARNING"
-                    android:textColor="#FFFFFF"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-            </androidx.cardview.widget.CardView>
+            <Button
+                android:id="@+id/learning2"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="Learning"
+                android:textSize="17sp"
+                app:backgroundTint="#47B601"
+                android:textAlignment="center"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                android:layout_marginRight="120dp"
+                app:layout_constraintBottom_toTopOf="@id/learning3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/learning1" />
 
 
-        </LinearLayout>
+            <Button
+                android:id="@+id/learning3"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="Learning"
+                android:textSize="17sp"
+                app:backgroundTint="#47B601"
+                android:textAlignment="center"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                app:layout_constraintBottom_toTopOf="@id/learning4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/learning2" />
+
+
+
+            <Button
+                android:id="@+id/learning4"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="Learning"
+                android:textSize="17sp"
+                app:backgroundTint="#47B601"
+                android:textAlignment="center"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                android:layout_marginLeft="120dp"
+                app:layout_constraintBottom_toTopOf="@id/learning5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/learning3" />
+
+
+            <Button
+                android:id="@+id/learning5"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="Learning"
+                android:textSize="17sp"
+                app:backgroundTint="#47B601"
+                android:textAlignment="center"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/learning4"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     </RelativeLayout>

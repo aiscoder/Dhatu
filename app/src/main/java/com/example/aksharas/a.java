@@ -16,10 +16,6 @@ public class a extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a);
 
-        Button button = (Button) findViewById(R.id.button10);
-        button.setOnClickListener(v -> openaksharas ());
-
-
 
         agni = MediaPlayer.create(a.this, R.raw.agni);
         final MediaPlayer agni = MediaPlayer.create(this, R.raw.agni);
@@ -69,10 +65,6 @@ public class a extends AppCompatActivity {
     }
 
     public void Playa(){ a.start();
-    }
-    public void openaksharas () {
-        Intent intent = new Intent(this, aksharas.class);
-        startActivity(intent);
     }
 
 

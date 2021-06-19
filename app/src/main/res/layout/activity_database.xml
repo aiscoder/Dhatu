@@ -9,132 +9,121 @@
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="307dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="311dp"
+        android:layout_height="60dp"
         android:text="GUNITAKSHARAS"
         android:textSize="24sp"
         app:backgroundTint="#3B9801"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@id/button15"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.403"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459" />
+        app:layout_constraintTop_toBottomOf="@id/button7"/>
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="305dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="311dp"
+        android:layout_height="60dp"
         android:text="SAMASA"
         android:textSize="24sp"
         app:backgroundTint="#0E8A01"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@id/button16"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.675" />
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
 
     <Button
         android:id="@+id/button15"
-        android:layout_width="310dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="311dp"
+        android:layout_height="60dp"
         android:text="SANDHI"
         android:textSize="24sp"
         app:backgroundTint="#0D8700"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@id/button14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.567" />
+        app:layout_constraintTop_toBottomOf="@id/button13" />
 
     <Button
         android:id="@+id/button16"
         android:layout_width="311dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="60dp"
         android:text="SHABDHAS"
         android:textSize="24sp"
         app:backgroundTint="#0C7800"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.793" />
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
 
     <Button
         android:id="@+id/button12"
         android:layout_width="311dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="60dp"
         android:text="AKSHARAS"
         android:textSize="24sp"
         app:backgroundTint="#13C100"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@id/button7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.43"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
+        app:layout_constraintTop_toBottomOf="@id/button5" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="311dp"
         android:layout_height="57dp"
-        android:text="SANSKRIT DATABASE"
+        android:text="DATABASE"
         android:textColor="#2D7300"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@id/button5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.42"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="311dp"
         android:layout_height="60dp"
-        android:layout_marginTop="20dp"
         android:text="ORIGIN"
         android:textSize="24sp"
         app:backgroundTint="#3AD300"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@id/button12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.43"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.161" />
+        app:layout_constraintTop_toBottomOf="@id/textView" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="311dp"
-        android:layout_height="62dp"
+        android:layout_height="60dp"
         android:text="NUMBERS"
         android:textSize="24sp"
         app:backgroundTint="#32A301"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@id/button13"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.382" />
+        app:layout_constraintTop_toBottomOf="@id/button12" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="134dp"
         android:layout_height="123dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.981"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.998"
+        app:layout_constraintTop_toBottomOf="@+id/button16"
         app:srcCompat="@drawable/dhatu" />
 </androidx.constraintlayout.widget.ConstraintLayout>

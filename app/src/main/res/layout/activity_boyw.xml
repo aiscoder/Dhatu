@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A166DC"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
@@ -72,7 +71,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginStart="70dp"
         android:text="बालः"
-        android:textColor="@color/black"
+        android:textColor="#1D6C00"
         android:textSize="36sp"
         android:textStyle="italic"
         android:textAlignment="center"
@@ -105,7 +104,7 @@
         android:gravity="center_horizontal"
         android:text="लिङ्ग = पुल्लिंग"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="#1D6C00"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/textView13"
         app:layout_constraintEnd_toEndOf="parent"
@@ -119,7 +118,7 @@
         android:layout_width="350dp"
         android:layout_height="36dp"
         android:text="@string/boy"
-        android:textColor="@color/black"
+        android:textColor="#1D6C00"
         android:textSize="25sp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         app:layout_constraintBottom_toTopOf="@+id/back2b"
@@ -133,15 +132,13 @@
         android:id="@+id/back2b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Main menu"
-        app:backgroundTint="#00BFA5"
+        android:text="Next"
+        app:backgroundTint="#05A800"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.957" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

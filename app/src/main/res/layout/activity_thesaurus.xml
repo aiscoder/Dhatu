@@ -13,15 +13,14 @@
         android:layout_height="87dp"
         android:text="DICTIONARY"
         android:textAllCaps="true"
-        android:textSize="36sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:backgroundTint="#22A514"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@id/button19"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.439"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.272" />
+        app:layout_constraintTop_toBottomOf="@id/textView8" />
 
     <TextView
         android:id="@+id/textView8"
@@ -29,29 +28,28 @@
         android:layout_height="74dp"
         android:text="THESAURUS"
         android:textColor="#0A1300"
-        android:textSize="50sp"
+        android:textSize="40sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="center"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@id/button11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.088" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button19"
         android:layout_width="329dp"
         android:layout_height="88dp"
-        android:text="THESAURUS"
-        android:textSize="36sp"
+        android:text="WORD-FINDER"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:backgroundTint="#269100"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:layout_constraintBottom_toTopOf="@id/imageView8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.397"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485" />
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -59,10 +57,8 @@
         android:layout_height="289dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932"
+        app:layout_constraintTop_toBottomOf="@+id/button19"
         app:srcCompat="@drawable/dhatu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

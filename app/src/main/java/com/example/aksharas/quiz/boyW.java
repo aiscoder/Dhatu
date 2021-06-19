@@ -19,9 +19,11 @@ public class boyW extends AppCompatActivity {
 
     public static final String SHARED_PREFS_POINTS = "sharedprefsp";
     public static final String SHARED_PREFS_CURRENCY = "sharedprefsc";
+    public static final String SHARED_PREFS_RIGHT = "sharedprefsr";
     public static final String CURRENCY = "0";
     public static final String POINTS = "0";
-    String currency = "", points = "";
+    public static final String RIGHT = "0";
+    String currency = "", points = "", right = "";
     TextView score1, score2;
 
 
@@ -35,6 +37,8 @@ public class boyW extends AppCompatActivity {
 
         currency = getIntent().getExtras().getString("currency");
         points = getIntent().getExtras().getString("points");
+        right = getIntent().getExtras().getString("right");
+
         save();
         load();
         updateViews();
@@ -53,8 +57,23 @@ public class boyW extends AppCompatActivity {
 
 
     private void openquestion(){
-        Intent intent = new Intent(this, learning.class);
-        startActivity(intent);
+        if(right.equals("1"))
+        {
+            Intent intent = new Intent(this, Question3.class);
+            intent.putExtra("currency", currency);
+            intent.putExtra("points", points);
+            intent.putExtra("right", right);
+            startActivity(intent);
+        }
+
+        else if (right.equals("2"))
+        {
+            Intent intent = new Intent(this, learning.class);
+            intent.putExtra("currency", currency);
+            intent.putExtra("points", points);
+            intent.putExtra("right", right);
+            startActivity(intent);
+        }
     }
 
     public void playBoy(){
@@ -65,19 +84,25 @@ public class boyW extends AppCompatActivity {
     {
         SharedPreferences sp1 = getSharedPreferences(SHARED_PREFS_POINTS, MODE_PRIVATE);
         SharedPreferences sp2 = getSharedPreferences(SHARED_PREFS_CURRENCY, MODE_PRIVATE);
+        SharedPreferences sp3 = getSharedPreferences(SHARED_PREFS_RIGHT, MODE_PRIVATE);
         SharedPreferences.Editor e1 = sp1.edit();
         SharedPreferences.Editor e2 = sp2.edit();
+        SharedPreferences.Editor e3 = sp3.edit();
         e1.putString(POINTS, points);
         e2.putString(CURRENCY, currency);
+        e3.putString(RIGHT, right);
         e1.apply();
         e2.apply();
+        e3.apply();
     }
     public void load()
     {
         SharedPreferences sp1 = getSharedPreferences(SHARED_PREFS_POINTS, MODE_PRIVATE);
         SharedPreferences sp2 = getSharedPreferences(SHARED_PREFS_CURRENCY, MODE_PRIVATE);
+        SharedPreferences sp3 = getSharedPreferences(SHARED_PREFS_RIGHT, MODE_PRIVATE);
         points = sp1.getString(POINTS, "0");
         currency = sp2.getString(CURRENCY, "0");
+        right = sp3.getString(RIGHT, "0");
     }
     public void updateViews()
     {
