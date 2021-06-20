@@ -50,6 +50,10 @@ public class girlC extends AppCompatActivity {
         nxt.setOnClickListener(v -> opennext());
     }
 
+    @Override
+    public void onBackPressed()
+    {
+    }
 
     private void openquestion(){
         Intent intent = new Intent(this, Question2.class);

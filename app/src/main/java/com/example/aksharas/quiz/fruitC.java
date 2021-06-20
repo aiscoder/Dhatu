@@ -54,6 +54,10 @@ public class fruitC extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed()
+    {
+    }
 
     private void openquestion()
     {

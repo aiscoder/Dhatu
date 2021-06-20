@@ -48,6 +48,11 @@ public class Question3 extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed()
+    {
+    }
+
     public void openboyW(){
         Intent intent = new Intent(this, boyW.class);
         intent.putExtra("currency", currency);

@@ -55,6 +55,10 @@ public class boyW extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed()
+    {
+    }
 
     private void openquestion(){
         if(right.equals("1"))

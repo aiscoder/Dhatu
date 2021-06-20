@@ -63,6 +63,10 @@ public class boyC extends AppCompatActivity
 
     }
 
+    @Override
+    public void onBackPressed()
+    {
+    }
 
     public void playBoy(){
         boysoundbruh.start();

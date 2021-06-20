@@ -53,6 +53,11 @@ public class fruitW extends AppCompatActivity {
         fruitsound.setOnClickListener(v -> playBoy());
     }
 
+    @Override
+    public void onBackPressed()
+    {
+    }
+
     private void openquestion()
     {
         if(right.equals("0"))

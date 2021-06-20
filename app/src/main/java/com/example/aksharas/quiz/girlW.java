@@ -52,6 +52,11 @@ public class girlW extends AppCompatActivity
         girlsound.setOnClickListener(v -> playBoy());
     }
 
+    @Override
+    public void onBackPressed()
+    {
+    }
+
     private void openquestion(){
         if(right.equals("0"))
         {
