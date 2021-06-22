@@ -1,19 +1,15 @@
 package com.example.aksharas;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.aksharas.quiz.QuestionPage;
+import com.example.aksharas.quiz3.greetings;
 
 public class learning extends AppCompatActivity {
 
@@ -42,9 +38,11 @@ public class learning extends AppCompatActivity {
         load();
         Button button = (Button) findViewById(R.id.basics);
         Button button2 = (Button) findViewById(R.id.cardView23);
+        Button button3 = (Button) findViewById(R.id.people);
 
         button.setOnClickListener(v -> openquiz());
         button2.setOnClickListener(v -> openquiz2());
+        button3.setOnClickListener(v -> openquiz3());
 
     }
 
@@ -57,6 +55,12 @@ public class learning extends AppCompatActivity {
     public void openquiz2()
     {
         Intent intent = new Intent(this, basicsII.class);
+        startActivity(intent);
+    }
+
+    public void openquiz3()
+    {
+        Intent intent = new Intent(this, greetings.class);
         startActivity(intent);
     }
 

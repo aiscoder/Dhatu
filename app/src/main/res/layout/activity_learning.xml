@@ -76,7 +76,7 @@
                 android:id="@+id/people"
                 android:layout_width="170dp"
                 android:layout_height="50dp"
-                android:text="people"
+                android:text="greetings"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
                 android:textAlignment="center"

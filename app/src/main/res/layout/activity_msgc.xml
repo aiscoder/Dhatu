@@ -33,5 +33,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView27"
         app:layout_constraintVertical_bias="0.694"
-        app:srcCompat="@drawable/kittyHappy" />
+        app:srcCompat="@drawable/kittyhappy" />
 </androidx.constraintlayout.widget.ConstraintLayout>

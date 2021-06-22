@@ -45,13 +45,10 @@ public class basicsII extends AppCompatActivity
         b3.setOnClickListener(v -> but3());
 
         boy = MediaPlayer.create(basicsII.this, R.raw.boy);
-        final MediaPlayer agni = MediaPlayer.create(this, R.raw.boy);
 
         girl = MediaPlayer.create(basicsII.this, R.raw.girl);
-        final MediaPlayer amba = MediaPlayer.create(this, R.raw.girl);
 
         fruit = MediaPlayer.create(basicsII.this, R.raw.fruit);
-        final MediaPlayer arti = MediaPlayer.create(this, R.raw.fruit);
 
         br1.setOnClickListener(v -> butt1());
         br2.setOnClickListener(v -> butt2());

@@ -13,6 +13,24 @@
             android:name=".basicsII"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".quiz3.greetings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz3.greeting1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz3.greeting2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz3.greeting3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz3.greeting4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz3.greeting5"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".basicsIIpoints"
             android:screenOrientation="portrait"
             android:noHistory="true"/>
