@@ -10,43 +10,47 @@
         android:id="@+id/button"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#3AD300"
         android:text="बालः"
         android:textSize="45sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.313"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.574" />
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.586" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
         android:backgroundTint="#3AD300"
         android:text="फलम्"
         android:textSize="45sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintBottom_toOf="@id/button"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242" />
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        app:layout_constraintVertical_bias="0.102" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#3AD300"
         android:text="बाला"
         android:textSize="45sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.913" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -55,12 +59,11 @@
         android:background="#0C7800"
         android:padding="2dp"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
         app:srcCompat="@drawable/boy2" />
 
     <ImageButton
@@ -70,12 +73,11 @@
         android:background="#0C7800"
         android:padding="2dp"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.574"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
         app:srcCompat="@drawable/girl2" />
 
     <ImageButton
@@ -87,16 +89,18 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.913"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toEndOf="@+id/button10"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.055"
         app:srcCompat="@drawable/apple2" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="263dp"
         android:layout_height="46dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="592dp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:gravity="center"
         android:text="@string/correct"
@@ -106,26 +110,25 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.417"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.123" />
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:layout_constraintVertical_bias="0.236" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:gravity="center"
         android:text="Match the following"
+        android:textAlignment="center"
         android:textColor="#2D7300"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.049" />
+        app:layout_constraintVertical_bias="0.048" />
 </androidx.constraintlayout.widget.ConstraintLayout>
