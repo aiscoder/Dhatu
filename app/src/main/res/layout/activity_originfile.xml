@@ -9,8 +9,9 @@
 
     <Button
         android:id="@+id/mahesh"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="242dp"
+        android:layout_height="55dp"
+        android:background="@drawable/aroow_enable4"
         android:text="Maheshwarasutra"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -25,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Scholars"
+        android:background="@drawable/aroow_enable5"
         android:textSize="18sp"
         android:textStyle="bold"
         app:backgroundTint="#15B302"
@@ -38,6 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sanskrit in Indian Mythology"
+        android:background="@drawable/aroow_enable6"
         android:textSize="18sp"
         android:textStyle="bold"
         app:backgroundTint="#01A60A"

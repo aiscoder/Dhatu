@@ -55,13 +55,13 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="184dp"
+        android:layout_height="184dp"
         app:layout_constraintBottom_toTopOf="@+id/sanskritTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/boy1" />
+        app:srcCompat="@drawable/kittyhappy" />
 
     <com.example.aksharas.quiz.SanskritTextView
         android:id="@+id/sanskritTextView"

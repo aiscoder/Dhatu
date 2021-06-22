@@ -30,7 +30,6 @@
         android:backgroundTint="#3AD300"
         android:text="फलम्"
         android:textSize="45sp"
-
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toStartOf="@+id/imageButton"
         app:layout_constraintHorizontal_bias="0.388"

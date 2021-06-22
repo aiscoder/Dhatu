@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/girl1" />
+        app:srcCompat="@drawable/kittyhappy" />
 
     <com.example.aksharas.quiz.SanskritTextView
         android:id="@+id/sanskritTextView"

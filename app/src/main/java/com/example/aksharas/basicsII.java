@@ -20,7 +20,7 @@ import com.example.aksharas.R;
 public class basicsII extends AppCompatActivity
 {
     TextView t;
-    Button b1, b2 , b3;
+    Button b1, b2 , b3, main_menu;
     ImageButton br1, br2, br3;
     boolean l = true, r = false;
     MediaPlayer boy, girl, fruit;
@@ -36,13 +36,16 @@ public class basicsII extends AppCompatActivity
         b1 = (Button)findViewById(R.id.button6);
         b2 = (Button)findViewById(R.id.button);
         b3 = (Button)findViewById(R.id.button10);
+        main_menu = (Button)findViewById(R.id.button22);
         br1 = (ImageButton)findViewById(R.id.imageButton);
         br2 = (ImageButton)findViewById(R.id.imageButton2);
         br3 = (ImageButton)findViewById(R.id.imageButton3);
 
+
         b1.setOnClickListener(v -> but1());
         b2.setOnClickListener(v -> but2());
         b3.setOnClickListener(v -> but3());
+        main_menu.setOnClickListener(v -> menu());
 
         boy = MediaPlayer.create(basicsII.this, R.raw.boy);
 
@@ -53,7 +56,6 @@ public class basicsII extends AppCompatActivity
         br1.setOnClickListener(v -> butt1());
         br2.setOnClickListener(v -> butt2());
         br3.setOnClickListener(v -> butt3());
-
 
 
     }
@@ -280,6 +282,11 @@ public class basicsII extends AppCompatActivity
             b3.setEnabled(true);
             br3.setEnabled(true);
         }
+    }
+    public void menu()
+    {
+        Intent intent = new Intent(this, learning.class);
+        startActivity(intent);
     }
 
 }
