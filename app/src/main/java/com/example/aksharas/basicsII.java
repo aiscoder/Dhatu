@@ -25,6 +25,7 @@ public class basicsII extends AppCompatActivity
     boolean l = true, r = false;
     MediaPlayer boy, girl, fruit;
     boolean ans1 = false, ans2 = false, ans3 = false;
+    int c = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -140,6 +141,11 @@ public class basicsII extends AppCompatActivity
 
     public void butt1()
     {
+        if(ans1 && ans2 && ans3)
+        {
+            Intent i = new Intent(this, basicsIIpoints.class);
+            startActivity(i);
+        }
         if(ans1)
         {
             b2.setEnabled(false);
@@ -163,8 +169,10 @@ public class basicsII extends AppCompatActivity
         }
         if(!(b2.isEnabled()))
         {
+            ++c;
             ans1 = true;
             Intent i = new Intent(this, basicsIImsgC.class);
+            i.putExtra("value", c);
             startActivity(i);
         }
         else
@@ -182,6 +190,11 @@ public class basicsII extends AppCompatActivity
 
     public void butt2()
     {
+        if(ans1 && ans2 && ans3)
+        {
+            Intent i = new Intent(this, basicsIIpoints.class);
+            startActivity(i);
+        }
         if(ans1)
         {
             b2.setEnabled(false);
@@ -205,8 +218,10 @@ public class basicsII extends AppCompatActivity
         }
         if(!(b3.isEnabled()))
         {
+            ++c;
             ans2 = true;
             Intent i = new Intent(this, basicsIImsgC.class);
+            i.putExtra("value", c);
             startActivity(i);
         }
         else
@@ -224,6 +239,11 @@ public class basicsII extends AppCompatActivity
 
     public void butt3()
     {
+        if(ans1 && ans2 && ans3)
+        {
+            Intent i = new Intent(this, basicsIIpoints.class);
+            startActivity(i);
+        }
         if(ans1)
         {
             b2.setEnabled(false);
@@ -247,8 +267,10 @@ public class basicsII extends AppCompatActivity
         }
         if(!(b1.isEnabled()))
         {
+            ++c;
             ans3 = true;
             Intent i = new Intent(this, basicsIImsgC.class);
+            i.putExtra("value", c);
             startActivity(i);
         }
         else
