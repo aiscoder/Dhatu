@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Aksharas">
-        <activity android:name=".basics2"></activity>
+        <activity
+            android:name=".basicsII"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".actualthesaurus"
             android:screenOrientation="portrait" />

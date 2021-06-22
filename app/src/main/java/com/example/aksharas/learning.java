@@ -28,14 +28,25 @@ public class learning extends AppCompatActivity {
         save();
         load();
         Button button = (Button) findViewById(R.id.basics);
+        Button button2 = (Button) findViewById(R.id.cardView23);
+
         button.setOnClickListener(v -> openquiz());
+        button2.setOnClickListener(v -> openquiz2());
 
     }
 
-    public void openquiz(){
+    public void openquiz()
+    {
         Intent intent = new Intent(this, QuestionPage.class);
         startActivity(intent);
     }
+
+    public void openquiz2()
+    {
+        Intent intent = new Intent(this, basicsII.class);
+        startActivity(intent);
+    }
+
 
     public void save()
     {
