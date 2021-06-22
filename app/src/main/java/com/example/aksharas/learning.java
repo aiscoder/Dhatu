@@ -22,6 +22,17 @@ public class learning extends AppCompatActivity {
     TextView t;
     String right ="";
 
+
+    @Override
+    public void onBackPressed()
+    {
+        Intent intent = new Intent(this, homepage.class);
+        startActivity(intent);
+        finish();
+    }
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

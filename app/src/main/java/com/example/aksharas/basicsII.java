@@ -25,11 +25,11 @@ public class basicsII extends AppCompatActivity
     boolean l = true, r = false;
     MediaPlayer boy, girl, fruit;
     boolean ans1 = false, ans2 = false, ans3 = false;
+    int c = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
-
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_basics2);
@@ -39,6 +39,7 @@ public class basicsII extends AppCompatActivity
         br1 = (ImageButton)findViewById(R.id.imageButton);
         br2 = (ImageButton)findViewById(R.id.imageButton2);
         br3 = (ImageButton)findViewById(R.id.imageButton3);
+
         b1.setOnClickListener(v -> but1());
         b2.setOnClickListener(v -> but2());
         b3.setOnClickListener(v -> but3());
@@ -140,6 +141,11 @@ public class basicsII extends AppCompatActivity
 
     public void butt1()
     {
+        if(ans1 && ans2 && ans3)
+        {
+            Intent i = new Intent(this, basicsIIpoints.class);
+            startActivity(i);
+        }
         if(ans1)
         {
             b2.setEnabled(false);
@@ -163,10 +169,16 @@ public class basicsII extends AppCompatActivity
         }
         if(!(b2.isEnabled()))
         {
+            ++c;
             ans1 = true;
+            Intent i = new Intent(this, basicsIImsgC.class);
+            i.putExtra("value", c);
+            startActivity(i);
         }
         else
         {
+            Intent i = new Intent(this, basicsIImsgW.class);
+            startActivity(i);
             if (ans2 == false)
             b3.setEnabled(true);
             if(ans3 == false)
@@ -178,6 +190,11 @@ public class basicsII extends AppCompatActivity
 
     public void butt2()
     {
+        if(ans1 && ans2 && ans3)
+        {
+            Intent i = new Intent(this, basicsIIpoints.class);
+            startActivity(i);
+        }
         if(ans1)
         {
             b2.setEnabled(false);
@@ -201,10 +218,16 @@ public class basicsII extends AppCompatActivity
         }
         if(!(b3.isEnabled()))
         {
+            ++c;
             ans2 = true;
+            Intent i = new Intent(this, basicsIImsgC.class);
+            i.putExtra("value", c);
+            startActivity(i);
         }
         else
         {
+            Intent i = new Intent(this, basicsIImsgW.class);
+            startActivity(i);
             if (ans3 == false)
             b1.setEnabled(true);
             if (ans1 == false)
@@ -216,6 +239,11 @@ public class basicsII extends AppCompatActivity
 
     public void butt3()
     {
+        if(ans1 && ans2 && ans3)
+        {
+            Intent i = new Intent(this, basicsIIpoints.class);
+            startActivity(i);
+        }
         if(ans1)
         {
             b2.setEnabled(false);
@@ -239,10 +267,16 @@ public class basicsII extends AppCompatActivity
         }
         if(!(b1.isEnabled()))
         {
+            ++c;
             ans3 = true;
+            Intent i = new Intent(this, basicsIImsgC.class);
+            i.putExtra("value", c);
+            startActivity(i);
         }
         else
         {
+            Intent i = new Intent(this, basicsIImsgW.class);
+            startActivity(i);
             if (ans1 == false)
             b2.setEnabled(true);
             if (ans2 == false)
