@@ -24,11 +24,13 @@ public class basicsII extends AppCompatActivity
     MediaPlayer boy, girl, fruit;
     boolean l = true, r = false;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_basics2);
+
         boy = MediaPlayer.create(basicsII.this, R.raw.boy);
         final MediaPlayer agni = MediaPlayer.create(this, R.raw.boy);
 
@@ -49,6 +51,7 @@ public class basicsII extends AppCompatActivity
         b1.setOnClickListener(v -> but1());
         b2.setOnClickListener(v -> but2());
         b3.setOnClickListener(v -> but3());
+
         b1.setOnClickListener(v -> Playfruit());
         b2.setOnClickListener(v -> Playboy());
         b3.setOnClickListener(v -> Playgirl());
