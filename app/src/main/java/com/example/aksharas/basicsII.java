@@ -167,7 +167,9 @@ public class basicsII extends AppCompatActivity
         }
         else
         {
+            if (ans2 == false)
             b3.setEnabled(true);
+            if(ans3 == false)
             b1.setEnabled(true);
             br1.setEnabled(true);
         }
@@ -203,7 +205,9 @@ public class basicsII extends AppCompatActivity
         }
         else
         {
+            if (ans3 == false)
             b1.setEnabled(true);
+            if (ans1 == false)
             b2.setEnabled(true);
             br2.setEnabled(true);
         }
@@ -239,7 +243,9 @@ public class basicsII extends AppCompatActivity
         }
         else
         {
+            if (ans1 == false)
             b2.setEnabled(true);
+            if (ans2 == false)
             b3.setEnabled(true);
             br3.setEnabled(true);
         }
