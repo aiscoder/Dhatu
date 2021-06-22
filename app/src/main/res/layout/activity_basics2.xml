@@ -120,7 +120,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:gravity="center"
-        android:text="Match the following"
+        android:text="Match the following "
         android:textAlignment="center"
         android:textColor="#2D7300"
         android:textSize="30sp"

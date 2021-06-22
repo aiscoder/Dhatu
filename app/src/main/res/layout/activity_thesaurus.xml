@@ -11,14 +11,15 @@
         android:id="@+id/button11"
         android:layout_width="360dp"
         android:layout_height="87dp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="DICTIONARY"
         android:textAllCaps="true"
         android:textSize="32sp"
         android:textStyle="bold"
         app:backgroundTint="#22A514"
-        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         app:layout_constraintBottom_toTopOf="@id/button19"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView8" />
 
@@ -26,14 +27,15 @@
         android:id="@+id/textView8"
         android:layout_width="350dp"
         android:layout_height="74dp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="THESAURUS"
+        android:textAlignment="center"
         android:textColor="#0A1300"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:textAlignment="center"
-        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         app:layout_constraintBottom_toTopOf="@id/button11"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,24 +43,41 @@
         android:id="@+id/button19"
         android:layout_width="360dp"
         android:layout_height="88dp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="WORD-FINDER"
         android:textSize="32sp"
         android:textStyle="bold"
         app:backgroundTint="#269100"
-        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-        app:layout_constraintBottom_toTopOf="@id/imageView8"
+        app:layout_constraintBottom_toTopOf="@+id/button22"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button11" />
 
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="360dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="Translator"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:backgroundTint="#269100"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button19" />
+
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="322dp"
-        android:layout_height="289dp"
+        android:layout_width="265dp"
+        android:layout_height="225dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button19"
+        app:layout_constraintTop_toBottomOf="@+id/button22"
         app:srcCompat="@drawable/dhatu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
