@@ -30,7 +30,6 @@ public class basicsII extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
 
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_basics2);
         b1 = (Button)findViewById(R.id.button6);
@@ -39,6 +38,7 @@ public class basicsII extends AppCompatActivity
         br1 = (ImageButton)findViewById(R.id.imageButton);
         br2 = (ImageButton)findViewById(R.id.imageButton2);
         br3 = (ImageButton)findViewById(R.id.imageButton3);
+
         b1.setOnClickListener(v -> but1());
         b2.setOnClickListener(v -> but2());
         b3.setOnClickListener(v -> but3());
@@ -164,9 +164,13 @@ public class basicsII extends AppCompatActivity
         if(!(b2.isEnabled()))
         {
             ans1 = true;
+            Intent i = new Intent(this, basicsIImsgC.class);
+            startActivity(i);
         }
         else
         {
+            Intent i = new Intent(this, basicsIImsgW.class);
+            startActivity(i);
             if (ans2 == false)
             b3.setEnabled(true);
             if(ans3 == false)
@@ -202,9 +206,13 @@ public class basicsII extends AppCompatActivity
         if(!(b3.isEnabled()))
         {
             ans2 = true;
+            Intent i = new Intent(this, basicsIImsgC.class);
+            startActivity(i);
         }
         else
         {
+            Intent i = new Intent(this, basicsIImsgW.class);
+            startActivity(i);
             if (ans3 == false)
             b1.setEnabled(true);
             if (ans1 == false)
@@ -240,9 +248,13 @@ public class basicsII extends AppCompatActivity
         if(!(b1.isEnabled()))
         {
             ans3 = true;
+            Intent i = new Intent(this, basicsIImsgC.class);
+            startActivity(i);
         }
         else
         {
+            Intent i = new Intent(this, basicsIImsgW.class);
+            startActivity(i);
             if (ans1 == false)
             b2.setEnabled(true);
             if (ans2 == false)

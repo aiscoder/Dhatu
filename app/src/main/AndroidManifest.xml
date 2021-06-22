@@ -16,6 +16,12 @@
             android:name=".actualthesaurus"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".basicsIImsgC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".basicsIImsgW"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".dictionary"
             android:screenOrientation="portrait" />
         <activity
