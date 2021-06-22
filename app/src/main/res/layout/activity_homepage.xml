@@ -13,7 +13,7 @@
         android:layout_height="93dp"
         android:textAlignment="center"
         android:gravity="center"
-        android:text="Welcome to Shabdha!"
+        android:text="Welcome to Dhatu:!"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -63,9 +63,10 @@
             android:src="@drawable/a" />
 
         <TextView
-            android:layout_width="211dp"
-            android:layout_height="86dp"
+            android:layout_width="260dp"
+            android:layout_height="90dp"
             android:layout_gravity="right"
+            android:textAlignment="center"
             android:padding="20dp"
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:text="LEARNING"
@@ -109,9 +110,10 @@
 
         <TextView
             android:id="@+id/textView10O"
-            android:layout_width="220dp"
+            android:layout_width="260dp"
             android:layout_height="94dp"
             android:layout_gravity="right"
+            android:textAlignment="center"
             android:padding="20dp"
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:text="DATABASE"
@@ -163,12 +165,13 @@
 
         <TextView
             android:id="@+id/textView10"
-            android:layout_width="243dp"
+            android:layout_width="260dp"
             android:layout_height="93dp"
             android:layout_gravity="right"
             android:padding="20dp"
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
             android:text="THESAURUS"
+            android:textAlignment="gravity"
             android:textColor="#FFFFFF"
             android:textSize="30sp"
             android:textStyle="bold" />

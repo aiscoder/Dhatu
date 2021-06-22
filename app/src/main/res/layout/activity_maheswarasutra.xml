@@ -21,8 +21,9 @@
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="615dp"
         android:text="Maheshwarasutra"
+        android:textAlignment="center"
         android:textColor="#373232"
-        android:textSize="50sp"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
 

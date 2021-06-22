@@ -23,7 +23,7 @@ public class a extends AppCompatActivity {
         amba = MediaPlayer.create(a.this, R.raw.amba);
         final MediaPlayer amba = MediaPlayer.create(this, R.raw.amba);
 
-        arti = MediaPlayer.create(a.this, R.raw.arti);
+        arti = MediaPlayer.create(a.this, R.raw.goat);
         final MediaPlayer arti = MediaPlayer.create(this, R.raw.arti);
 
         anna = MediaPlayer.create(a.this, R.raw.anna);

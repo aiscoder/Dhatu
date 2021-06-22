@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#F47979"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -44,7 +45,7 @@
         android:background="#F47979"
         android:gravity="center"
         android:text="@string/wrong"
-        android:textColor="#0D0516"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
@@ -62,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/girl" />
+        app:srcCompat="@drawable/girl1" />
 
     <com.example.aksharas.quiz.SanskritTextView
         android:id="@+id/sanskritTextView"
@@ -71,7 +72,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginStart="70dp"
         android:text="बाला"
-        android:textColor="#1D6C00"
+        android:textColor="@color/black"
         android:textSize="36sp"
         android:textStyle="italic"
         android:textAlignment="center"
@@ -102,7 +103,7 @@
         android:gravity="center_horizontal"
         android:text="लिङ्ग = स्त्रीलिंग"
         android:textAlignment="center"
-        android:textColor="#1D6C00"
+        android:textColor="@color/black"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/textView16"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,7 +115,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/girl"
-        android:textColor="#1D6C00"
+        android:textColor="@color/black"
         android:textSize="25sp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         app:layout_constraintBottom_toTopOf="@+id/back3"
@@ -127,7 +128,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
-        app:backgroundTint="#05A800"
+        android:textColor="@color/white"
+        android:backgroundTint="#F47979"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

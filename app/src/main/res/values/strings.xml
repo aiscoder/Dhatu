@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">Shabdha</string>
     <string name="shabdha" translatable="false">Shabdha</string>
-    <string name="Shabdha">Shabdha</string>
+    <string name="Shabdha">Dhatu:</string>
     <string name="score1">Points: 0</string>
     <string name="score2">Currency: 0</string>
 
@@ -15,6 +15,8 @@
 
     <!-- LEVEL 1 -->
     <string name="l1">- 1 -</string>
+    <string name="l2">- 2 -</string>
+    <string name="l3">- 3 -</string>
     <string name="obj1">Objective: Familiarity with <i>lingas</i>.</string>
     <string name="q11">Choose the word for <u>boy</u>.</string>
     <string name="q12">Choose the word for <u>girl</u>.</string>

@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,7 +28,7 @@ public class QuestionPage extends AppCompatActivity
     public static final String POINTS = "0";
     public static final String RIGHT = "0";
     String currency = "", points = "", right = "";
-    Button boy1,girl1,fruit1;
+    ImageButton boy1,girl1,fruit1;
     TextView score1, score2;
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -35,13 +36,13 @@ public class QuestionPage extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions1);
 
-        boy1 = (Button) findViewById(R.id.boy1);
+        boy1 = (ImageButton) findViewById(R.id.boy1);
         boy1.setOnClickListener(v -> openboyC());
 
-        girl1 = (Button) findViewById(R.id.girl1);
+        girl1 = (ImageButton) findViewById(R.id.girl1);
         girl1.setOnClickListener(v -> opengirlW());
 
-        fruit1 = (Button) findViewById(R.id.fruit1);
+        fruit1 = (ImageButton) findViewById(R.id.fruit1);
         fruit1.setOnClickListener(v -> openfruitW());
 
 

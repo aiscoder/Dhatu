@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="328dp"
+        android:layout_width="360dp"
         android:layout_height="87dp"
         android:text="DICTIONARY"
         android:textAllCaps="true"
@@ -24,7 +24,7 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="296dp"
+        android:layout_width="350dp"
         android:layout_height="74dp"
         android:text="THESAURUS"
         android:textColor="#0A1300"
@@ -39,7 +39,7 @@
 
     <Button
         android:id="@+id/button19"
-        android:layout_width="329dp"
+        android:layout_width="360dp"
         android:layout_height="88dp"
         android:text="WORD-FINDER"
         android:textSize="32sp"

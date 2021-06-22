@@ -28,12 +28,13 @@
 
             <TextView
                 android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="326dp"
+                android:layout_height="37dp"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                 android:text="SANSKRIT LEARNING"
+                android:textAlignment="center"
                 android:textColor="#0A4000"
                 android:textSize="25sp"
-                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                 app:layout_constraintBottom_toTopOf="@+id/basics"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -42,8 +43,8 @@
 
             <Button
                 android:id="@+id/basics"
-                android:layout_width="140dp"
-                android:layout_height="50dp"
+                android:layout_width="177dp"
+                android:layout_height="51dp"
                 android:text="BASICS"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
@@ -58,8 +59,8 @@
 
             <Button
                 android:id="@+id/cardView23"
-                android:layout_width="140dp"
-                android:layout_height="50dp"
+                android:layout_width="177dp"
+                android:layout_height="51dp"
                 android:text="BASICS II"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
@@ -74,8 +75,8 @@
 
             <Button
                 android:id="@+id/people"
-                android:layout_width="140dp"
-                android:layout_height="50dp"
+                android:layout_width="177dp"
+                android:layout_height="51dp"
                 android:text="people"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
@@ -90,13 +91,13 @@
 
             <Button
                 android:id="@+id/learning1"
-                android:layout_width="140dp"
-                android:layout_height="50dp"
+                android:layout_width="177dp"
+                android:layout_height="51dp"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                 android:text="Learning"
+                android:textAlignment="center"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
-                android:textAlignment="center"
-                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                 app:layout_constraintBottom_toTopOf="@id/learning2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -105,14 +106,14 @@
 
             <Button
                 android:id="@+id/learning2"
-                android:layout_width="140dp"
-                android:layout_height="50dp"
+                android:layout_width="177dp"
+                android:layout_height="51dp"
+                android:layout_marginRight="120dp"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                 android:text="Learning"
+                android:textAlignment="center"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
-                android:textAlignment="center"
-                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-                android:layout_marginRight="120dp"
                 app:layout_constraintBottom_toTopOf="@id/learning3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -121,8 +122,8 @@
 
             <Button
                 android:id="@+id/learning3"
-                android:layout_width="140dp"
-                android:layout_height="50dp"
+                android:layout_width="177dp"
+                android:layout_height="51dp"
                 android:text="Learning"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
@@ -137,8 +138,8 @@
 
             <Button
                 android:id="@+id/learning4"
-                android:layout_width="140dp"
-                android:layout_height="50dp"
+                android:layout_width="177dp"
+                android:layout_height="51dp"
                 android:text="Learning"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
@@ -153,8 +154,8 @@
 
             <Button
                 android:id="@+id/learning5"
-                android:layout_width="140dp"
-                android:layout_height="50dp"
+                android:layout_width="177dp"
+                android:layout_height="51dp"
                 android:text="Learning"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
