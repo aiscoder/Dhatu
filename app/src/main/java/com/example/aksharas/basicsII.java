@@ -52,17 +52,12 @@ public class basicsII extends AppCompatActivity
         br1.setOnClickListener(v -> butt1());
         br2.setOnClickListener(v -> butt2());
         br3.setOnClickListener(v -> butt3());
-
-        b1.setOnClickListener(v -> Playfruit());
-        b2.setOnClickListener(v -> Playboy());
-        b3.setOnClickListener(v -> Playgirl());
-
-
     }
 
 
     public void but1()
     {
+        fruit.start();
         if(ans1)
         {
             b2.setEnabled(false);
@@ -89,6 +84,7 @@ public class basicsII extends AppCompatActivity
 
     public void but2()
     {
+         boy.start();
         if(ans1)
         {
             b2.setEnabled(false);
@@ -116,6 +112,7 @@ public class basicsII extends AppCompatActivity
 
     public void but3()
     {
+        girl.start();
         if (ans1) {
             b2.setEnabled(false);
             br1.setEnabled(false);
@@ -241,12 +238,4 @@ public class basicsII extends AppCompatActivity
                 br3.setEnabled(true);
             }
         }
-    public void Playboy(){ boy.start();
-    }
-    public void Playgirl(){ girl.start();
-    }
-
-    public void Playfruit(){ fruit.start();
-    }
-
     }

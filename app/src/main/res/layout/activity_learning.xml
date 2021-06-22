@@ -42,7 +42,7 @@
 
             <Button
                 android:id="@+id/basics"
-                android:layout_width="140dp"
+                android:layout_width="170dp"
                 android:layout_height="50dp"
                 android:text="BASICS"
                 android:textSize="17sp"
@@ -58,7 +58,7 @@
 
             <Button
                 android:id="@+id/cardView23"
-                android:layout_width="140dp"
+                android:layout_width="170dp"
                 android:layout_height="50dp"
                 android:text="BASICS II"
                 android:textSize="17sp"
@@ -74,7 +74,7 @@
 
             <Button
                 android:id="@+id/people"
-                android:layout_width="140dp"
+                android:layout_width="170dp"
                 android:layout_height="50dp"
                 android:text="people"
                 android:textSize="17sp"
@@ -90,7 +90,7 @@
 
             <Button
                 android:id="@+id/learning1"
-                android:layout_width="140dp"
+                android:layout_width="170dp"
                 android:layout_height="50dp"
                 android:text="Learning"
                 android:textSize="17sp"
@@ -105,7 +105,7 @@
 
             <Button
                 android:id="@+id/learning2"
-                android:layout_width="140dp"
+                android:layout_width="170dp"
                 android:layout_height="50dp"
                 android:text="Learning"
                 android:textSize="17sp"
@@ -121,7 +121,7 @@
 
             <Button
                 android:id="@+id/learning3"
-                android:layout_width="140dp"
+                android:layout_width="170dp"
                 android:layout_height="50dp"
                 android:text="Learning"
                 android:textSize="17sp"
@@ -137,7 +137,7 @@
 
             <Button
                 android:id="@+id/learning4"
-                android:layout_width="140dp"
+                android:layout_width="170dp"
                 android:layout_height="50dp"
                 android:text="Learning"
                 android:textSize="17sp"
@@ -153,7 +153,7 @@
 
             <Button
                 android:id="@+id/learning5"
-                android:layout_width="140dp"
+                android:layout_width="170dp"
                 android:layout_height="50dp"
                 android:text="Learning"
                 android:textSize="17sp"
