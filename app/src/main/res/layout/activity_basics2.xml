@@ -93,7 +93,7 @@
         app:layout_constraintVertical_bias="0.913"
         app:srcCompat="@drawable/apple2" />
 
-    <TextView
+    <!--TextView
         android:id="@+id/textView25"
         android:layout_width="263dp"
         android:layout_height="46dp"
@@ -109,9 +109,9 @@
         app:layout_constraintHorizontal_bias="0.417"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.123" />
+        app:layout_constraintVertical_bias="0.123" /-->
 
-    <TextView
+   <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -128,4 +128,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.049" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
