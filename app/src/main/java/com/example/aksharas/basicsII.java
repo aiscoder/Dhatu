@@ -36,7 +36,7 @@ public class basicsII extends AppCompatActivity
         b1 = (Button)findViewById(R.id.button6);
         b2 = (Button)findViewById(R.id.button);
         b3 = (Button)findViewById(R.id.button10);
-        main_menu = (Button)findViewById(R.id.button22);
+        //main_menu = (Button)findViewById(R.id.button22);
         br1 = (ImageButton)findViewById(R.id.imageButton);
         br2 = (ImageButton)findViewById(R.id.imageButton2);
         br3 = (ImageButton)findViewById(R.id.imageButton3);
@@ -45,7 +45,7 @@ public class basicsII extends AppCompatActivity
         b1.setOnClickListener(v -> but1());
         b2.setOnClickListener(v -> but2());
         b3.setOnClickListener(v -> but3());
-        main_menu.setOnClickListener(v -> menu());
+        //main_menu.setOnClickListener(v -> menu());
 
         boy = MediaPlayer.create(basicsII.this, R.raw.boy);
 
@@ -283,10 +283,10 @@ public class basicsII extends AppCompatActivity
             br3.setEnabled(true);
         }
     }
-    public void menu()
+  /*  public void menu()
     {
         Intent intent = new Intent(this, learning.class);
         startActivity(intent);
-    }
+    }*/
 
 }

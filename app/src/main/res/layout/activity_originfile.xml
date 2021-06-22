@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/mahesh"
-        android:layout_width="242dp"
-        android:layout_height="55dp"
+        android:layout_width="318dp"
+        android:layout_height="46dp"
         android:background="@drawable/aroow_enable4"
         android:text="Maheshwarasutra"
         android:textSize="18sp"
@@ -23,8 +23,8 @@
 
     <Button
         android:id="@+id/button17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
         android:text="Scholars"
         android:background="@drawable/aroow_enable5"
         android:textSize="18sp"
@@ -37,15 +37,16 @@
 
     <Button
         android:id="@+id/button18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sanskrit in Indian Mythology"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
         android:background="@drawable/aroow_enable6"
+        android:text="Sanskrit in Indian Mythology"
         android:textSize="18sp"
         android:textStyle="bold"
         app:backgroundTint="#01A60A"
         app:layout_constraintBottom_toTopOf="@id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button17" />
 
@@ -90,6 +91,7 @@
         android:layout_height="160dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button18"
         app:srcCompat="@drawable/dhatu" />
