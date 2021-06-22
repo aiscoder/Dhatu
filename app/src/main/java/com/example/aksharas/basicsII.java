@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.LightingColorFilter;
 import android.graphics.PorterDuff;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,6 +21,7 @@ public class basicsII extends AppCompatActivity
 {
     Button b1, b2 , b3;
     ImageButton br1, br2, br3;
+    MediaPlayer boy, girl, fruit;
     boolean l = true, r = false;
 
     @Override
@@ -27,6 +29,14 @@ public class basicsII extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_basics2);
+        boy = MediaPlayer.create(basicsII.this, R.raw.boy);
+        final MediaPlayer agni = MediaPlayer.create(this, R.raw.boy);
+
+        girl = MediaPlayer.create(basicsII.this, R.raw.girl);
+        final MediaPlayer amba = MediaPlayer.create(this, R.raw.girl);
+
+        fruit = MediaPlayer.create(basicsII.this, R.raw.fruit);
+        final MediaPlayer arti = MediaPlayer.create(this, R.raw.fruit);
 
         b1 = (Button)findViewById(R.id.button6);
         b2 = (Button)findViewById(R.id.button);
@@ -39,6 +49,9 @@ public class basicsII extends AppCompatActivity
         b1.setOnClickListener(v -> but1());
         b2.setOnClickListener(v -> but2());
         b3.setOnClickListener(v -> but3());
+        b1.setOnClickListener(v -> Playfruit());
+        b2.setOnClickListener(v -> Playboy());
+        b3.setOnClickListener(v -> Playgirl());
 
 
     }
@@ -76,5 +89,12 @@ public class basicsII extends AppCompatActivity
             r = true;
         }
 
+    }
+    public void Playboy(){ boy.start();
+    }
+    public void Playgirl(){ girl.start();
+    }
+
+    public void Playfruit(){ fruit.start();
     }
 }
