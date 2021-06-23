@@ -25,12 +25,10 @@ public class people4 extends AppCompatActivity {
 
         b4 = (Button) findViewById(R.id.button52);
         b4.setOnClickListener(v -> openb4());
-
-        nxt=(Button) findViewById(R.id.button56);
-        nxt.setOnClickListener(v -> next());
     }
     public void openb1(){
         Intent i = new Intent(this, peoplec.class);
+        i.putExtra("nav", "4");
         startActivity(i);
     }
 
@@ -46,10 +44,6 @@ public class people4 extends AppCompatActivity {
 
     public void openb4(){
         Intent i = new Intent(this, basicsIImsgW.class);
-        startActivity(i);
-    }
-    public void next(){
-        Intent i = new Intent(this, peoplec.class);
         startActivity(i);
     }
 
