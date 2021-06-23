@@ -31,6 +31,7 @@ public class homepage extends Activity {
         button3.setOnClickListener(v -> openthesaurus ());
 
         ImageButton ava = (ImageButton) findViewById(R.id.imageView20);
+        ava.setOnClickListener(v -> openava ());
 
     }
 
@@ -47,6 +48,10 @@ public class homepage extends Activity {
 
     public void openthesaurus () {
         Intent intent = new Intent(this, thesaurus.class);
+        startActivity(intent);
+    }
+    public void openava () {
+        Intent intent = new Intent(this, avatar.class);
         startActivity(intent);
     }
 
