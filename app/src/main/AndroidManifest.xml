@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aksharas">
         <activity
+            android:name=".heyw"
+            android:screenOrientation="portrait"
+            android:noHistory="true"/>
+        <activity
+            android:name=".welcome"
+            android:screenOrientation="portrait"
+            android:noHistory="true"/>
+        <activity
             android:name=".basicsII"
             android:screenOrientation="portrait" />
         <activity

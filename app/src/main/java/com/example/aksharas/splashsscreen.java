@@ -22,7 +22,7 @@ public class splashsscreen extends Activity {
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(splashsscreen.this, homepage.class);
+                Intent mainIntent = new Intent(splashsscreen.this, heyw.class);
                 splashsscreen.this.startActivity(mainIntent);
                 splashsscreen.this.finish();
             }
