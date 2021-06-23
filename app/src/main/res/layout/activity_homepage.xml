@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,19 +13,20 @@
         android:layout_width="82dp"
         android:layout_height="77dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="9dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        android:layout_marginBottom="654dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView6"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/circular" />
+        android:src="@drawable/circular" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="293dp"
         android:layout_height="79dp"
+        android:layout_marginBottom="652dp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:gravity="center"
         android:text="Welcome to Dhatu!"
@@ -34,13 +36,238 @@
         android:textColor="#003E06"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/textView7"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView20"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <androidx.cardview.widget.CardView
+        android:id="@+id/button3"
+        android:layout_width="325dp"
+        android:layout_height="91dp"
+        android:layout_row="0"
+        android:layout_gravity="center"
+        android:layout_marginBottom="128dp"
+        app:cardBackgroundColor="#2BC600"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/catcard"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="227dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:padding="20dp"
+            android:text="THESAURUS"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="78dp"
+            android:layout_height="86dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="3.5dp"
+            android:src="@drawable/thesaurus" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="106dp"
+        android:layout_height="113dp"
+
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:srcCompat="@drawable/dhatu" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/button2"
+        android:layout_width="322dp"
+        android:layout_height="86dp"
+        android:layout_row="0"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#01C50A"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:padding="20dp"
+            android:text="DATABASE"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="64dp"
+            android:layout_height="76dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/books" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/catcard1"
+        android:layout_width="319dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/learning"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="80dp"
+            android:layout_height="77dp"
+            android:layout_gravity="right"
+            android:src="@drawable/sitting" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="213dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:text="Start with Sanskrit speaking here!"
+            android:textColor="#244005"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/catcard2"
+        android:layout_width="314dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.322">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/smirky" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:text="Your Sanskrit Database in one click."
+            android:textColor="#125300"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/learning"
+        android:layout_width="319dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#09C303"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/catcard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="79dp"
+            android:layout_height="62dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/a" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="86dp"
+            android:layout_gravity="right"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:padding="20dp"
+            android:text="LEARNING"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/catcard"
+        android:layout_width="325dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="99dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:src="@drawable/kittyhappy" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="190dp"
+            android:layout_height="51dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:text="Search all your words here!"
+            android:textColor="#1B6A00"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <!--TextView
         android:id="@+id/textView7"
         android:layout_width="215dp"
         android:layout_height="58dp"
@@ -55,9 +282,9 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView17"
         app:layout_constraintHorizontal_bias="0.229"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" /-->
 
-    <androidx.cardview.widget.CardView
+    <!--androidx.cardview.widget.CardView
         android:id="@+id/learning"
         android:layout_width="330dp"
         android:layout_height="92dp"
@@ -90,10 +317,10 @@
             android:textStyle="bold" />
 
 
-    </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView-->
 
 
-    <TextView
+    <!--TextView
         android:id="@+id/textView11"
         android:layout_width="222dp"
         android:layout_height="64dp"
@@ -109,9 +336,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.809"
         app:layout_constraintStart_toEndOf="@+id/imageView18"
-        app:layout_constraintTop_toBottomOf="@+id/learning" />
+        app:layout_constraintTop_toBottomOf="@+id/learning" /-->
 
-    <androidx.cardview.widget.CardView
+    <!--androidx.cardview.widget.CardView
         android:id="@+id/button2"
         android:layout_width="328dp"
         android:layout_height="98dp"
@@ -146,9 +373,9 @@
             android:layout_marginTop="6dp"
             android:src="@drawable/books" />
 
-    </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView-->
 
-    <TextView
+    <!--TextView
         android:id="@+id/textView9"
         android:layout_width="184dp"
         android:layout_height="48dp"
@@ -246,50 +473,10 @@
         android:layout_height="122dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintHorizontal_bias="0.015"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442"
-        app:srcCompat="@drawable/smirky" />
-
-
-    <!--    <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tabLayout2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:tabIconTint="@android:color/holo_green_light"
-            app:tabIndicatorColor="#23E800"
-            app:tabTextColor="#000000">
-
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/learning"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="LEARNING" />
-
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="DATABASE" />
-
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="THESAURUS" />
-        </com.google.android.material.tabs.TabLayout>
-
-        <androidx.viewpager.widget.ViewPager
-            android:id="@+id/viewPager"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-    -->
+        app:layout_constraintVertical_bias="0.384"
+        app:srcCompat="@drawable/smirky" /-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
