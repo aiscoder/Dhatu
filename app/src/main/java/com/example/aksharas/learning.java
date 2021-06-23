@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.example.aksharas.quiz.QuestionPage;
 import com.example.aksharas.quiz3.greetings;
+import com.example.aksharas.quiz5.chart_animals;
 
 public class learning extends AppCompatActivity {
 
@@ -40,11 +41,13 @@ public class learning extends AppCompatActivity {
         Button button2 = (Button) findViewById(R.id.cardView23);
         Button button3 = (Button) findViewById(R.id.people);
         Button button4 = (Button) findViewById(R.id.learning1);
+        Button button5= (Button) findViewById(R.id.learning2);
 
         button.setOnClickListener(v -> openquiz());
         button2.setOnClickListener(v -> openquiz2());
         button3.setOnClickListener(v -> openquiz3());
         button4.setOnClickListener(v -> openquiz4());
+        button5.setOnClickListener(v -> openquiz5());
 
 
     }
@@ -69,6 +72,11 @@ public class learning extends AppCompatActivity {
 
     public void openquiz4(){
         Intent intent = new Intent(this, people1.class);
+        startActivity(intent);
+    }
+    public void openquiz5(){
+        Intent intent = new Intent(this, chart_animals.class);
+        intent.putExtra("animals", "none");
         startActivity(intent);
     }
 

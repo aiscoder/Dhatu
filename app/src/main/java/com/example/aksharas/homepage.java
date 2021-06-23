@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
@@ -28,6 +29,9 @@ public class homepage extends Activity {
 
         CardView button3 = (CardView) findViewById(R.id.button3);
         button3.setOnClickListener(v -> openthesaurus ());
+
+        ImageButton ava = (ImageButton) findViewById(R.id.imageView20);
+
     }
 
 

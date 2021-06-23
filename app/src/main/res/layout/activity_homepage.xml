@@ -7,7 +7,7 @@
     android:background="#FFFFFF">
 
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView20"
         android:layout_width="82dp"
         android:layout_height="77dp"
@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/cicular" />
+        app:srcCompat="@drawable/circular" />
 
     <TextView
         android:id="@+id/textView6"
@@ -100,29 +100,16 @@
         android:layout_gravity="center"
         android:layout_marginTop="21dp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:gravity="right"
         android:text="Your Sanskrit Database in one click."
         android:textColor="#125300"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:gravity="right"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.809"
         app:layout_constraintStart_toEndOf="@+id/imageView18"
         app:layout_constraintTop_toBottomOf="@+id/learning" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="78dp"
-        android:layout_height="122dp"
-        android:layout_marginTop="9dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toStartOf="@+id/textView11"
-        app:layout_constraintHorizontal_bias="0.656"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/learning"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/smirky" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button2"
@@ -210,8 +197,8 @@
             android:layout_width="260dp"
             android:layout_height="93dp"
             android:layout_gravity="right"
-            android:padding="20dp"
             android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:padding="20dp"
             android:text="THESAURUS"
             android:textColor="#FFFFFF"
             android:textSize="30sp"
@@ -222,8 +209,8 @@
             android:layout_width="78dp"
             android:layout_height="86dp"
             android:layout_gravity="left"
-            android:layout_marginTop="3.5dp"
             android:layout_marginLeft="6dp"
+            android:layout_marginTop="3.5dp"
             android:src="@drawable/thesaurus" />
 
     </androidx.cardview.widget.CardView>
@@ -252,6 +239,18 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/sitting" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="78dp"
+        android:layout_height="122dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442"
+        app:srcCompat="@drawable/smirky" />
 
 
     <!--    <com.google.android.material.tabs.TabLayout
