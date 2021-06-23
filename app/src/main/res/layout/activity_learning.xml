@@ -73,105 +73,56 @@
                 app:layout_constraintTop_toBottomOf="@id/basics" />
 
 
-
             <Button
                 android:id="@+id/people"
                 android:layout_width="170dp"
                 android:layout_height="50dp"
-                android:text="greetings"
+                android:layout_marginLeft="120dp"
                 android:background="@drawable/aroow_enable4"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                android:text="greetings"
+                android:textAlignment="center"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
-                android:textAlignment="center"
-                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-                android:layout_marginLeft="120dp"
                 app:layout_constraintBottom_toTopOf="@id/learning1"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.895"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/cardView23" />
-
 
             <Button
                 android:id="@+id/learning1"
                 android:layout_width="170dp"
                 android:layout_height="50dp"
-                android:text="Learning"
                 android:background="@drawable/aroow_enable4"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                android:text="Learning"
+                android:textAlignment="center"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
-                android:textAlignment="center"
-                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
                 app:layout_constraintBottom_toTopOf="@id/learning2"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/people" />
-
 
             <Button
                 android:id="@+id/learning2"
                 android:layout_width="170dp"
                 android:layout_height="50dp"
-                android:text="Learning"
+                android:layout_marginRight="120dp"
                 android:background="@drawable/aroow_enable4"
+                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                android:text="Learning"
+                android:textAlignment="center"
                 android:textSize="17sp"
                 app:backgroundTint="#47B601"
-                android:textAlignment="center"
-                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-                android:layout_marginRight="120dp"
-                app:layout_constraintBottom_toTopOf="@id/learning3"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/learning1" />
 
-
-            <Button
-                android:id="@+id/learning3"
-                android:layout_width="170dp"
-                android:layout_height="50dp"
-                android:text="Learning"
-                android:background="@drawable/aroow_enable4"
-                android:textSize="17sp"
-                app:backgroundTint="#47B601"
-                android:textAlignment="center"
-                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-                app:layout_constraintBottom_toTopOf="@id/learning4"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/learning2" />
-
-
-
-            <Button
-                android:id="@+id/learning4"
-                android:layout_width="170dp"
-                android:layout_height="50dp"
-                android:text="Learning"
-                android:background="@drawable/aroow_enable4"
-                android:textSize="17sp"
-                app:backgroundTint="#47B601"
-                android:textAlignment="center"
-                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-                android:layout_marginLeft="120dp"
-                app:layout_constraintBottom_toTopOf="@id/learning5"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/learning3" />
-
-
-            <Button
-                android:id="@+id/learning5"
-                android:layout_width="170dp"
-                android:layout_height="50dp"
-                android:text="Learning"
-                android:background="@drawable/aroow_enable4"
-                android:textSize="17sp"
-                app:backgroundTint="#47B601"
-                android:textAlignment="center"
-                android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/learning4"
-                app:layout_constraintBottom_toBottomOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
