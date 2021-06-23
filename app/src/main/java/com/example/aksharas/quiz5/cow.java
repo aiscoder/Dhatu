@@ -40,4 +40,9 @@ public class cow extends AppCompatActivity
         Intent intent = new Intent(this, lion.class);
         startActivity(intent);
     }
+
+    @Override
+    public void onBackPressed()
+    {
+    }
 }

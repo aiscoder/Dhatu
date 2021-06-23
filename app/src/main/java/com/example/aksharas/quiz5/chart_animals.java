@@ -66,4 +66,8 @@ public class chart_animals extends AppCompatActivity
         }
     }
 
+    @Override
+    public void onBackPressed()
+    {
+    }
 }

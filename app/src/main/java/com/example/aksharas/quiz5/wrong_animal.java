@@ -27,8 +27,13 @@ public class wrong_animal extends AppCompatActivity
 
     public void revert()
     {
-        Intent intent = new Intent(this, cat.class);
+        Intent intent = new Intent(this, chart_animals.class);
         intent.putExtra("animals", inc);
         startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed()
+    {
     }
 }

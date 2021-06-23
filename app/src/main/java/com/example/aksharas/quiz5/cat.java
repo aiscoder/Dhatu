@@ -40,4 +40,9 @@ public class cat extends AppCompatActivity
         Intent intent = new Intent(this, dog.class);
         startActivity(intent);
     }
+
+    @Override
+    public void onBackPressed()
+    {
+    }
 }

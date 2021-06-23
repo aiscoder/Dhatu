@@ -33,13 +33,18 @@ public class lion extends AppCompatActivity
     public void wrong()
     {
         Intent intent = new Intent(this, wrong_animal.class);
-        intent.putExtra("animals", "cow");
+        intent.putExtra("animals", "lion");
         startActivity(intent);
     }
 
     public void right()
     {
-        Intent intent = new Intent(this, lion.class);
+        Intent intent = new Intent(this, done5.class);
         startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed()
+    {
     }
 }
