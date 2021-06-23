@@ -10,9 +10,21 @@
         android:id="@+id/button34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Good Morrow!"
+        android:background="@drawable/aroow_enable"
+        android:text="सुप्रभातम्"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="25dp"
+        app:layout_constraintTop_toBottomOf="@id/imageView14"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+       android:layout_width="309dp"
+        android:layout_height="558dp"
+        app:layout_constraintBottom_toTopOf="@+id/button34"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/yawning" />
 </androidx.constraintlayout.widget.ConstraintLayout>
