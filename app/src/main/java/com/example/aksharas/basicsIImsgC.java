@@ -1,6 +1,7 @@
 package com.example.aksharas;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 
@@ -10,12 +11,15 @@ import com.example.aksharas.quiz.boyW;
 
 public class basicsIImsgC extends AppCompatActivity
 {
+
     @Override
-    protected void onCreate( Bundle savedInstanceState)
+    protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         int x = getIntent().getExtras().getInt("value");
         setContentView(R.layout.activity_msgc);
+
+
         if (x == 3)
         {
             Intent intent = new Intent(this, basicsIIpoints.class);
@@ -32,7 +36,5 @@ public class basicsIImsgC extends AppCompatActivity
                 }
             }, 2000);
         }
-
-
     }
 }
