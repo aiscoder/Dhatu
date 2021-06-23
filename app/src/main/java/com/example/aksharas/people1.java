@@ -10,7 +10,8 @@ import android.widget.RadioButton;
 
 import com.example.aksharas.quiz.fruitW;
 
-public class people1 extends AppCompatActivity {
+public class people1 extends AppCompatActivity
+{
     Button b1,b2,b3,b4;
     Button nxt;
 
@@ -56,5 +57,10 @@ public class people1 extends AppCompatActivity {
     public void next(){
         Intent i = new Intent(this, people2.class);
         startActivity(i);
+    }
+
+    @Override
+    public void onBackPressed()
+    {
     }
 }

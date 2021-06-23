@@ -52,4 +52,9 @@ public class people4 extends AppCompatActivity {
         Intent i = new Intent(this, peoplec.class);
         startActivity(i);
     }
+
+    @Override
+    public void onBackPressed()
+    {
+    }
 }

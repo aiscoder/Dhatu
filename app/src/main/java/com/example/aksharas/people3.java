@@ -53,4 +53,8 @@ public class people3 extends AppCompatActivity {
         startActivity(i);
     }
 
+    @Override
+    public void onBackPressed()
+    {
+    }
 }

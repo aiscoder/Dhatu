@@ -130,6 +130,30 @@
             android:name=".quiz.QuestionPage"
             android:noHistory="true"
             android:screenOrientation="portrait" />
+
+
+        <!-- QUIZ 5 -->
+        <activity
+            android:name=".quiz5.dog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz5.cat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz5.cow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz5.lion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz5.chart_animals"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz5.wrong_animal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz5.done5"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
