@@ -2,9 +2,6 @@ package com.example.aksharas;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
-import android.graphics.LightingColorFilter;
-import android.graphics.PorterDuff;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -19,6 +16,7 @@ import com.example.aksharas.R;
 
 public class basicsII extends AppCompatActivity
 {
+
     TextView t;
     Button b1, b2 , b3, main_menu;
     ImageButton br1, br2, br3;
@@ -40,7 +38,6 @@ public class basicsII extends AppCompatActivity
         br1 = (ImageButton)findViewById(R.id.imageButton);
         br2 = (ImageButton)findViewById(R.id.imageButton2);
         br3 = (ImageButton)findViewById(R.id.imageButton3);
-
 
         b1.setOnClickListener(v -> but1());
         b2.setOnClickListener(v -> but2());
@@ -283,6 +280,9 @@ public class basicsII extends AppCompatActivity
             br3.setEnabled(true);
         }
     }
+
+
+
   /*  public void menu()
     {
         Intent intent = new Intent(this, learning.class);
