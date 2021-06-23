@@ -20,6 +20,9 @@ public class dog extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dog);
 
+        Button b = (Button)findViewById(R.id.button51);
+        b.setOnClickListener(v -> back());
+
         b1 = (ImageButton)findViewById(R.id.imageButton9);
         b2 = (ImageButton)findViewById(R.id.imageButton10);
         b3 = (ImageButton)findViewById(R.id.imageButton11);
@@ -51,5 +54,12 @@ public class dog extends AppCompatActivity
     @Override
     public void onBackPressed()
     {
+    }
+
+    public void back()
+    {
+        Intent intent = new Intent(this, chart_animals.class);
+        intent.putExtra("animals", "dog");
+        startActivity(intent);
     }
 }

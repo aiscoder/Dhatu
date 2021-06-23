@@ -3,6 +3,7 @@ package com.example.aksharas.quiz5;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +20,9 @@ public class lion extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lion);
+
+        Button b = (Button)findViewById(R.id.button46);
+        b.setOnClickListener(v -> back());
 
         b1 = (ImageButton)findViewById(R.id.imageButton9);
         b2 = (ImageButton)findViewById(R.id.imageButton10);
@@ -51,5 +55,12 @@ public class lion extends AppCompatActivity
     @Override
     public void onBackPressed()
     {
+    }
+
+    public void back()
+    {
+        Intent intent = new Intent(this, chart_animals.class);
+        intent.putExtra("animals", "lion");
+        startActivity(intent);
     }
 }
