@@ -6,13 +6,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="How to say 'Thank you' in Sanskrit?"
+        android:textAlignment="center"
+        android:textColor="#0A4000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/button28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
     <Button
         android:id="@+id/button28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thank You!"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="धन्यवादः"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:backgroundTint="#FF5DC9"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="278dp"
+        android:layout_height="403dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/button28"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/thankyou" />
 </androidx.constraintlayout.widget.ConstraintLayout>
