@@ -6,51 +6,140 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="117dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446"
+        android:src="@drawable/dogg" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="117dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244"
+        android:src="@drawable/catt" />
+
     <Button
         android:id="@+id/cat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="cat"
-        app:layout_constraintBottom_toTopOf="@+id/dog"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+        android:text="cat बिडालः"
+        app:backgroundTint="#3AD300"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247" />
 
     <Button
         android:id="@+id/dog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="dog"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+        android:text="dog कुक्कुरः"
+        android:textSize="28dp"
+        app:backgroundTint="#13C100"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/lion"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
 
     <Button
         android:id="@+id/lion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="lion"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+        android:text="lion सिंहः"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:backgroundTint="#32A301"
         app:layout_constraintBottom_toTopOf="@+id/cow"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
 
     <Button
         android:id="@+id/cow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="cow"
-        app:layout_constraintBottom_toTopOf="@+id/nxtt"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+        android:text="cow धेनुः"
+        android:textSize="28dp"
+        app:backgroundTint="#0D8700"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
 
     <Button
         android:id="@+id/nxtt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Continue"
+        android:layout_width="147dp"
+        android:layout_height="46dp"
+        android:text="START QUIZ"
+        app:backgroundTint="#0D8700"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="117dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658"
+        android:src="@drawable/lionn" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="117dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.861"
+        android:src="@drawable/coww" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="330dp"
+        android:layout_height="105dp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="VIEW CHART AND START QUIZ"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="#3AD300"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 </androidx.constraintlayout.widget.ConstraintLayout>

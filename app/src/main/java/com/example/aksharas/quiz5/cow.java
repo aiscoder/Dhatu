@@ -9,12 +9,12 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.aksharas.R;
-import com.example.aksharas.basicsII;
 
 public class cow extends AppCompatActivity
 {
-    ImageButton b1, b2, b3, b4, sound;
-    MediaPlayer s;
+    ImageButton b1, b2, b3, b4,b5;
+    Button chart;
+    MediaPlayer cow;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -28,15 +28,16 @@ public class cow extends AppCompatActivity
         b2 = (ImageButton)findViewById(R.id.imageButton10);
         b3 = (ImageButton)findViewById(R.id.imageButton11);
         b4 = (ImageButton)findViewById(R.id.imageButton12);
-        sound = (ImageButton)findViewById(R.id.imageButton4);
-
-        s = MediaPlayer.create(cow.this, R.raw.cow);
+        b5 = (ImageButton)findViewById(R.id.imageButton4);
+        chart = (Button)findViewById(R.id.button56);
+        cow = MediaPlayer.create(cow.this, R.raw.cow);
 
         b1.setOnClickListener(v -> wrong());
         b2.setOnClickListener(v -> wrong());
         b3.setOnClickListener(v -> wrong());
         b4.setOnClickListener(v -> right());
-        sound.setOnClickListener(v -> s.start());
+        b5.setOnClickListener(v -> cow.start());
+        chart.setOnClickListener(v -> back());
     }
 
     public void wrong()

@@ -10,8 +10,9 @@ import com.example.aksharas.R;
 
 public class cat extends AppCompatActivity
 {
-    ImageButton b1, b2, b3, b4, sound;
-    MediaPlayer s;
+    ImageButton b1, b2, b3, b4,b5;
+    Button chart;
+    MediaPlayer cat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -26,15 +27,17 @@ public class cat extends AppCompatActivity
         b2 = (ImageButton)findViewById(R.id.imageButton10);
         b3 = (ImageButton)findViewById(R.id.imageButton11);
         b4 = (ImageButton)findViewById(R.id.imageButton12);
-        sound = (ImageButton)findViewById(R.id.imageButton5);
-
-        s = MediaPlayer.create(cat.this, R.raw.cat);
+        b5 = (ImageButton)findViewById(R.id.imageButton5);
+        chart = (Button)findViewById(R.id.button59);
+        cat = MediaPlayer.create(cat.this, R.raw.cat);
 
         b1.setOnClickListener(v -> wrong());
         b2.setOnClickListener(v -> right());
         b3.setOnClickListener(v -> wrong());
         b4.setOnClickListener(v -> wrong());
-        sound.setOnClickListener(v -> s.start());
+        b5.setOnClickListener(v -> cat.start());
+        chart.setOnClickListener(v -> back());
+
     }
 
     public void wrong()

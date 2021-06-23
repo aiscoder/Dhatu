@@ -10,19 +10,38 @@
         android:id="@+id/textView36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="Incorrect Answer!"
+        android:textColor="#F82020"
+        android:textSize="35dp"
         app:layout_constraintBottom_toTopOf="@+id/button37"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
 
     <Button
         android:id="@+id/button37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="refer to the chart"
+        android:layout_width="282dp"
+        android:layout_height="54dp"
+        android:text="refer to chart"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:backgroundTint="#3AD300"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="277dp"
+        android:layout_height="497dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/kittysad" />
 </androidx.constraintlayout.widget.ConstraintLayout>

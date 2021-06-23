@@ -21,10 +21,10 @@ public class chart_animals extends AppCompatActivity
 
         animals = getIntent().getExtras().getString("animals");
 
-        cat = MediaPlayer.create(chart_animals.this, R.raw.boy);
-        dog = MediaPlayer.create(chart_animals.this, R.raw.boy);
-        cow = MediaPlayer.create(chart_animals.this, R.raw.boy);
-        lion = MediaPlayer.create(chart_animals.this, R.raw.boy);
+        cat = MediaPlayer.create(chart_animals.this, R.raw.cat);
+        dog = MediaPlayer.create(chart_animals.this, R.raw.dog);
+        cow = MediaPlayer.create(chart_animals.this, R.raw.cow);
+        lion = MediaPlayer.create(chart_animals.this, R.raw.lion);
 
         b1 = (Button) findViewById(R.id.cat);
         b2 = (Button) findViewById(R.id.dog);
@@ -34,8 +34,8 @@ public class chart_animals extends AppCompatActivity
 
         b1.setOnClickListener(v -> cat.start());
         b2.setOnClickListener(v -> dog.start());
-        b3.setOnClickListener(v -> cow.start());
-        b4.setOnClickListener(v -> lion.start());
+        b3.setOnClickListener(v -> lion.start());
+        b4.setOnClickListener(v -> cow.start());
         n.setOnClickListener(v -> next());
 
     }

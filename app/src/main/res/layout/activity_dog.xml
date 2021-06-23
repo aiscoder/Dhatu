@@ -12,6 +12,7 @@
         android:layout_height="236dp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="choose the given animal:"
+        android:textAlignment="center"
         android:textColor="#2D7300"
         android:textSize="38sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -98,9 +99,12 @@
 
     <Button
         android:id="@+id/button51"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="227dp"
+        android:layout_height="49dp"
         android:text="refer to chart"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        app:backgroundTint="#3AD300"
+        android:background="@drawable/aroow_enable4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

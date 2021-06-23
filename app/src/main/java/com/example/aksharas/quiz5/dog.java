@@ -12,8 +12,9 @@ import com.example.aksharas.R;
 
 public class dog extends AppCompatActivity
 {
-    ImageButton b1, b2, b3, b4, sound;
-    MediaPlayer s;
+    ImageButton b1, b2, b3, b4,b5;
+    Button chart;
+    MediaPlayer dog;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -27,15 +28,16 @@ public class dog extends AppCompatActivity
         b2 = (ImageButton)findViewById(R.id.imageButton10);
         b3 = (ImageButton)findViewById(R.id.imageButton11);
         b4 = (ImageButton)findViewById(R.id.imageButton12);
-        sound = (ImageButton)findViewById(R.id.imageButton6);
-
-        s = MediaPlayer.create(dog.this, R.raw.dog);
+        b5 = (ImageButton)findViewById(R.id.imageButton6);
+        chart = (Button)findViewById(R.id.button51);
+        dog = MediaPlayer.create(dog.this, R.raw.dog);
 
         b1.setOnClickListener(v -> wrong());
         b2.setOnClickListener(v -> wrong());
         b3.setOnClickListener(v -> right());
         b4.setOnClickListener(v -> wrong());
-        sound.setOnClickListener(v -> s.start());
+        b5.setOnClickListener(v -> dog.start());
+        chart.setOnClickListener(v -> back());
     }
 
     public void wrong()

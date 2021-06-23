@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,39 +7,46 @@
 
     <Button
         android:id="@+id/button20"
-        android:layout_width="314dp"
-        android:layout_height="272dp"
+        android:layout_width="388dp"
+        android:layout_height="66dp"
         android:background="@drawable/aroow_enable"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="Main Menu"
         android:textColor="@color/white"
         android:textSize="25sp"
-        app:backgroundTint="#3AD300"
-        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:backgroundTint="#FF6200EE"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
 
     <TextView
         android:id="@+id/textView29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/button20"
-        app:layout_constraintEnd_toStartOf="@+id/textView30"
+        android:textColor="#FF6200EE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@id/textView29"
-        app:layout_constraintBottom_toTopOf="@+id/button20"
+        android:textColor="#FF6200EE"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/textView33"
@@ -49,12 +55,24 @@
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="You are done with the quiz!"
         android:textAlignment="center"
-        android:textColor="#05A800"
+        android:textColor="#FF6200EE"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button20" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="403dp"
+        android:layout_height="459dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625"
+        app:srcCompat="@drawable/congocat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
