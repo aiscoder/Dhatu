@@ -15,7 +15,7 @@
         android:text="Main Menu"
         android:textColor="@color/white"
         android:textSize="25sp"
-        app:backgroundTint=""
+        app:backgroundTint="#3AD300"
         app:layout_constraintBottom_toTopOf="@+id/textView33"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"

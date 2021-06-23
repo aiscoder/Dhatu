@@ -39,10 +39,13 @@ public class learning extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.basics);
         Button button2 = (Button) findViewById(R.id.cardView23);
         Button button3 = (Button) findViewById(R.id.people);
+        Button button4 = (Button) findViewById(R.id.learning1);
 
         button.setOnClickListener(v -> openquiz());
         button2.setOnClickListener(v -> openquiz2());
         button3.setOnClickListener(v -> openquiz3());
+        button4.setOnClickListener(v -> openquiz4());
+
 
     }
 
@@ -61,6 +64,11 @@ public class learning extends AppCompatActivity {
     public void openquiz3()
     {
         Intent intent = new Intent(this, greetings.class);
+        startActivity(intent);
+    }
+
+    public void openquiz4(){
+        Intent intent = new Intent(this, people1.class);
         startActivity(intent);
     }
 
