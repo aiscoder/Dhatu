@@ -25,7 +25,7 @@ public class peoplecomplete extends AppCompatActivity
 
         load();
         currency = Integer.toString(Integer.parseInt(currency) + 50);
-        points = Integer.toString(Integer.parseInt(points) + 30);
+        points = Integer.toString(Integer.parseInt(points) + 40);
         save();
         updateViews();
 
