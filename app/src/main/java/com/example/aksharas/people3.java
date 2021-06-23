@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class people3 extends AppCompatActivity {
     Button b1,b2,b3,b4;
+    Button nxt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +25,15 @@ public class people3 extends AppCompatActivity {
 
         b4 = (Button) findViewById(R.id.button50);
         b4.setOnClickListener(v -> openb4());
+
+    }
+    @Override
+    public void onBackPressed()
+    {
     }
     public void openb1(){
         Intent i = new Intent(this, peoplec.class);
-        i.putExtra("nav", "3");
+        peoplec.x=4;
         startActivity(i);
     }
 
@@ -46,8 +52,4 @@ public class people3 extends AppCompatActivity {
         startActivity(i);
     }
 
-    @Override
-    public void onBackPressed()
-    {
-    }
 }

@@ -25,10 +25,15 @@ public class people4 extends AppCompatActivity {
 
         b4 = (Button) findViewById(R.id.button52);
         b4.setOnClickListener(v -> openb4());
+
+    }
+    @Override
+    public void onBackPressed()
+    {
     }
     public void openb1(){
         Intent i = new Intent(this, peoplec.class);
-        i.putExtra("nav", "4");
+        peoplec.x=5;
         startActivity(i);
     }
 
@@ -45,10 +50,5 @@ public class people4 extends AppCompatActivity {
     public void openb4(){
         Intent i = new Intent(this, basicsIImsgW.class);
         startActivity(i);
-    }
-
-    @Override
-    public void onBackPressed()
-    {
     }
 }

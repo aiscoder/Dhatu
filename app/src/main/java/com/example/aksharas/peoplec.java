@@ -6,48 +6,40 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class peoplec extends AppCompatActivity
-{
-    String s;
+public class peoplec extends AppCompatActivity {
+    public static int x=1;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        s = getIntent().getExtras().getString("nav");
         setContentView(R.layout.activity_peoplec);
         Handler h = new Handler();
         h.postDelayed(new Runnable() {
 
             @Override
-            public void run()
-            {
-                if(s.equals("1"))
-                {
-                    Intent i = new Intent(peoplec.this, people2.class);
-                    startActivity(i);
+            public void run() {
+                finish();
+                if (x == 2) {
+                    Intent mainIntent = new Intent(peoplec.this, people2.class);
+                    peoplec.this.startActivity(mainIntent);
+                    peoplec.this.finish();
                 }
-                if(s.equals("2"))
-                {
-                    Intent i = new Intent(peoplec.this, people3.class);
-                    startActivity(i);
+                if (x == 3) {
+                    Intent mainIntent = new Intent(peoplec.this, people3.class);
+                    peoplec.this.startActivity(mainIntent);
+                    peoplec.this.finish();
                 }
-                if(s.equals("3"))
-                {
-                    Intent i = new Intent(peoplec.this, people4.class);
-                    startActivity(i);
+                if (x == 4) {
+                    Intent mainIntent = new Intent(peoplec.this, people4.class);
+                    peoplec.this.startActivity(mainIntent);
+                    peoplec.this.finish();
                 }
-                if(s.equals("4"))
-                {
-                    Intent i = new Intent(peoplec.this, peoplecomplete.class);
-                    startActivity(i);
+                if (x == 5) {
+                    Intent mainIntent = new Intent(peoplec.this, peoplecomplete.class);
+                    peoplec.this.startActivity(mainIntent);
+                    peoplec.this.finish();
                 }
             }
         }, 2000);
-    }
-
-
-    @Override
-    public void onBackPressed()
-    {
     }
 }

@@ -15,6 +15,10 @@ public class peoplecomplete extends AppCompatActivity {
         Button main=(Button) findViewById(R.id.button58);
         main.setOnClickListener(v -> mainz());
     }
+    @Override
+    public void onBackPressed()
+    {
+    }
     public void mainz(){
         Intent i = new Intent(this, learning.class);
         startActivity(i);

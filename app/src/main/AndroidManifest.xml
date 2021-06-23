@@ -9,13 +9,17 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Aksharas">
-        <activity android:name=".peoplecomplete"></activity>
+        <activity android:name=".peoplecomplete" />
         <activity android:name=".peoplec" />
         <activity android:name=".people4" />
         <activity android:name=".people3" />
         <activity android:name=".people2" />
         <activity android:name=".people1" />
         <activity android:name=".webview" />
+        <activity
+            android:name=".avatar"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".heyw"
             android:noHistory="true"

@@ -10,9 +10,9 @@ import android.widget.RadioButton;
 
 import com.example.aksharas.quiz.fruitW;
 
-public class people1 extends AppCompatActivity
-{
+public class people1 extends AppCompatActivity {
     Button b1,b2,b3,b4;
+    Button nxt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,11 +30,15 @@ public class people1 extends AppCompatActivity
 
         b4 = (Button) findViewById(R.id.button41);
         b4.setOnClickListener(v -> openb4());
-
     }
-    public void openb1(){
+    @Override
+    public void onBackPressed()
+    {
+    }
+    public void openb1()
+    {
         Intent i = new Intent(this, peoplec.class);
-        i.putExtra("nav", "1");
+        peoplec.x=2;
         startActivity(i);
     }
 
@@ -48,13 +52,9 @@ public class people1 extends AppCompatActivity
         startActivity(i);
     }
 
-    public void openb4() {
+    public void openb4(){
         Intent i = new Intent(this, basicsIImsgW.class);
         startActivity(i);
     }
 
-    @Override
-    public void onBackPressed()
-    {
-    }
 }

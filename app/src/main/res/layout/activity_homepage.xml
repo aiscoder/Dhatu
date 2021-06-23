@@ -147,8 +147,8 @@
 
         <ImageView
             android:id="@+id/imageView17"
-            android:layout_width="80dp"
-            android:layout_height="77dp"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
             android:layout_gravity="right"
             android:src="@drawable/sitting" />
 

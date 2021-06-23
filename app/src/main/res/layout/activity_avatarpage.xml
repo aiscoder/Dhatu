@@ -31,4 +31,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView34"
         app:srcCompat="@drawable/finalavatar" />
+
+    <Button
+        android:id="@+id/button57"
+        android:layout_width="256dp"
+        android:layout_height="52dp"
+        android:background="@drawable/aroow_enable4"
+        android:text="Main Menu"
+        app:backgroundTint="#158800"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
 </androidx.constraintlayout.widget.ConstraintLayout>
