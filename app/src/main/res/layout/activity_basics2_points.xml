@@ -8,14 +8,17 @@
 
     <Button
         android:id="@+id/button20"
-        android:layout_width="215dp"
-        android:layout_height="264dp"
+        android:layout_width="314dp"
+        android:layout_height="272dp"
         android:background="@drawable/aroow_enable"
-        android:text="Button"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="Main Menu"
         android:textColor="@color/white"
+        android:textSize="25sp"
+        app:backgroundTint=""
         app:layout_constraintBottom_toTopOf="@+id/textView33"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,12 +48,12 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="You are done with the quiz!"
-        android:textColor="#0035BC"
-        android:textSize="25sp"
         android:textAlignment="center"
+        android:textColor="#05A800"
+        android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button20" />
 
