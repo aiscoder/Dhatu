@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Aksharas">
+        <activity android:name=".webview"></activity>
         <activity
             android:name=".heyw"
             android:screenOrientation="portrait"
@@ -40,8 +41,8 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".basicsIIpoints"
-            android:screenOrientation="portrait"
-            android:noHistory="true"/>
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".actualthesaurus"
             android:screenOrientation="portrait" />

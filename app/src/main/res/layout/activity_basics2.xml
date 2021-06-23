@@ -102,7 +102,7 @@
         android:layout_marginBottom="592dp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:gravity="center"
-        android:text="@string/correct"
+        android:text=""
         android:textAlignment="center"
         android:textColor="#2D7300"
         android:textSize="20sp"

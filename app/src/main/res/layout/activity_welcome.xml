@@ -8,14 +8,17 @@
 
     <Button
         android:id="@+id/button36"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="151dp"
+        android:layout_height="52dp"
+        android:background="@drawable/aroow_enable4"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="start!"
+        android:textSize="20sp"
+        app:backgroundTint="#3AD300"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.909" />
+        app:layout_constraintVertical_bias="0.976" />
 </androidx.constraintlayout.widget.ConstraintLayout>

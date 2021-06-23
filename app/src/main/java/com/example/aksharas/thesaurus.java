@@ -22,6 +22,9 @@ public class thesaurus extends AppCompatActivity {
 
         Button button19 = (Button) findViewById(R.id.button19);
         button19.setOnClickListener(v -> openactualthesaurus());
+
+        Button button22 = (Button) findViewById(R.id.button22);
+        button22.setOnClickListener(v -> opentranslator());
     }
     public void opendictionary(){
         Intent intent = new Intent(this, dictionary.class);
@@ -31,6 +34,12 @@ public class thesaurus extends AppCompatActivity {
 
     public void openactualthesaurus(){
         Intent intent = new Intent(this, actualthesaurus.class);
+        startActivity(intent);
+    }
+
+
+    public void opentranslator(){
+        Intent intent = new Intent(this, webview.class);
         startActivity(intent);
     }
 }
