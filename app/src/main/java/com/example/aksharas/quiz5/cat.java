@@ -31,6 +31,7 @@ public class cat extends AppCompatActivity
     public void wrong()
     {
         Intent intent = new Intent(this, wrong_animal.class);
+        intent.putExtra("animals", "cat");
         startActivity(intent);
     }
 

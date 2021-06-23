@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,38 +11,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="cat"
-        tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="133dp" />
+        app:layout_constraintBottom_toTopOf="@+id/dog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/dog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="dog"
-        tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="242dp" />
+        app:layout_constraintBottom_toTopOf="@+id/lion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/lion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="lion"
-        tools:layout_editor_absoluteX="245dp"
-        tools:layout_editor_absoluteY="368dp" />
+        app:layout_constraintBottom_toTopOf="@+id/cow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/cow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="cow"
-        tools:layout_editor_absoluteX="261dp"
-        tools:layout_editor_absoluteY="464dp" />
+        app:layout_constraintBottom_toTopOf="@+id/nxtt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/nxtt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Continue"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="627dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

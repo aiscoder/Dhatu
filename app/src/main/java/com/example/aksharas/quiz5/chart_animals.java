@@ -59,7 +59,7 @@ public class chart_animals extends AppCompatActivity
             Intent intent = new Intent(this, cow.class);
             startActivity(intent);
         }
-        if(animals.equals("ele"))
+        if(animals.equals("lion"))
         {
             Intent intent = new Intent(this, lion.class);
             startActivity(intent);

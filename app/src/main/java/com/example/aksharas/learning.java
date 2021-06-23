@@ -39,10 +39,12 @@ public class learning extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.basics);
         Button button2 = (Button) findViewById(R.id.cardView23);
         Button button3 = (Button) findViewById(R.id.people);
+        Button button5 = (Button) findViewById(R.id.learning2);
 
         button.setOnClickListener(v -> openquiz());
         button2.setOnClickListener(v -> openquiz2());
         button3.setOnClickListener(v -> openquiz3());
+        button5.setOnClickListener(v -> openquiz5());
 
     }
 
@@ -64,6 +66,12 @@ public class learning extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openquiz5()
+    {
+        Intent intent = new Intent(this, QuestionPage.class);
+        intent.putExtra("animals", "none");
+        startActivity(intent);
+    }
 
     public void save()
     {

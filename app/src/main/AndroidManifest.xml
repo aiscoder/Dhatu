@@ -132,6 +132,12 @@
             android:name=".quiz5.chart_animals"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".quiz5.done5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz5.wrong_animal"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".quiz5.cat"
             android:screenOrientation="portrait" />
         <activity
