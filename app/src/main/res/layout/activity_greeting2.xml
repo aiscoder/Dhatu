@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.228"
+        app:layout_constraintVertical_bias="0.2"
         app:srcCompat="@drawable/hellocat" />
 
     <TextView
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-        android:text="How to say hello in sanskrit"
+        android:text="say 'hello' in sanskrit"
         android:textAllCaps="true"
         android:textAlignment="center"
         android:textColor="#FF03DAC5"

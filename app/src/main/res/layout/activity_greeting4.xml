@@ -11,16 +11,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
-        android:text="How to say 'Thank you' in Sanskrit?"
+        android:text="say 'Thank you' in Sanskrit"
+        android:textAllCaps="true"
         android:textAlignment="center"
         android:textColor="#FF5DC9"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toTopOf="@+id/button28"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button28"
@@ -31,20 +30,18 @@
         android:textAlignment="center"
         android:textSize="30dp"
         app:backgroundTint="#FF5DC9"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView31"
-        app:layout_constraintVertical_bias="0.215" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="278dp"
         android:layout_height="403dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button28"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button28"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
         app:srcCompat="@drawable/thankyou" />
 </androidx.constraintlayout.widget.ConstraintLayout>
