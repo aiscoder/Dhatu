@@ -26,18 +26,18 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="211dp"
-        android:layout_height="61dp"
+        android:layout_width="248dp"
+        android:layout_height="59dp"
+        android:layout_margin="3dp"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="THESAURUS"
-        android:textAlignment="center"
         android:textColor="#0A1300"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/button11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.548"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView24"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -87,8 +87,8 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="265dp"
-        android:layout_height="225dp"
+        android:layout_width="207dp"
+        android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

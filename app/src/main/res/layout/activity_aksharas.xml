@@ -13,10 +13,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="166dp"
+            android:layout_height="168dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="238dp"
+            android:layout_marginEnd="35dp"
+            app:srcCompat="@drawable/sitting" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
 
             <TextView
                 android:layout_width="match_parent"
@@ -24,7 +35,6 @@
                 android:text="Swara:"
                 android:textColor="#0B0A0A"
                 android:textSize="24sp" />
-
 
             <GridLayout
                 android:layout_width="380dp"
@@ -190,6 +200,7 @@
                 android:textColor="#121111"
                 android:textSize="18sp" />
 
+
             <GridLayout
                 android:layout_width="380dp"
                 android:layout_height="wrap_content"
@@ -219,7 +230,6 @@
 
 
             </GridLayout>
-
 
             <TextView
                 android:layout_width="386dp"

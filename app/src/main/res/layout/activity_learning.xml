@@ -28,12 +28,13 @@
 
             <TextView
                 android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="SANSKRIT LEARNING"
-                android:textColor="#0A4000"
-                android:textSize="25sp"
+                android:layout_width="296dp"
+                android:layout_height="102dp"
                 android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+                android:text="SANSKRIT LEARNING"
+                android:textAlignment="center"
+                android:textColor="#0A4000"
+                android:textSize="35dp"
                 app:layout_constraintBottom_toTopOf="@+id/basics"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
