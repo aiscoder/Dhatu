@@ -34,7 +34,7 @@
                 android:text="SANSKRIT LEARNING"
                 android:textAlignment="center"
                 android:textColor="#0A4000"
-                android:textSize="30sp"
+                android:textSize="40sp"
                 app:layout_constraintBottom_toTopOf="@+id/basics"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
