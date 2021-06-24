@@ -14,9 +14,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         android:text="Choose your avatar!"
+        android:textAlignment="center"
         android:textColor="#158800"
         android:textSize="30sp"
-        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/imageView21"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,9 +24,9 @@
 
     <ImageView
         android:id="@+id/imageView21"
-        android:layout_width="387dp"
-        android:layout_height="642dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="363dp"
+        android:layout_height="489dp"
+        app:layout_constraintBottom_toTopOf="@+id/button57"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView34"
@@ -36,14 +36,16 @@
         android:id="@+id/button57"
         android:layout_width="256dp"
         android:layout_height="52dp"
+        android:layout_marginBottom="4dp"
         android:background="@drawable/aroow_enable4"
         android:text="Main Menu"
-        app:backgroundTint="#158800"
         android:textAlignment="center"
         android:textSize="20sp"
+        app:backgroundTint="#158800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,18 @@
     android:background="#FFFFFF"
     tools:context=".database">
 
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="121dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:src="@drawable/hangcat" />
+
     <Button
         android:id="@+id/button13"
         android:layout_width="311dp"
@@ -81,15 +93,15 @@
         android:id="@+id/textView"
         android:layout_width="311dp"
         android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:gravity="center"
         android:text="DATABASE"
+        android:textAlignment="center"
         android:textColor="#2D7300"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
         app:layout_constraintBottom_toTopOf="@id/button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -125,8 +137,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="134dp"
-        android:layout_height="123dp"
+        android:layout_width="88dp"
+        android:layout_height="78dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
