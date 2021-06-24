@@ -43,10 +43,6 @@ public class people1 extends AppCompatActivity {
         gode = MediaPlayer.create(people1.this, R.raw.lakshmi);
         final MediaPlayer gode = MediaPlayer.create(this, R.raw.lakshmi);
     }
-    @Override
-    public void onBackPressed()
-    {
-    }
     public void openb1()
     {
         Intent i = new Intent(this, peoplec.class);

@@ -50,10 +50,6 @@ public class QuestionPage extends AppCompatActivity
         updateViews();
 
     }
-    @Override
-    public void onBackPressed()
-    {
-    }
 
     public void openboyC(){
         Intent intent = new Intent(this, boyC.class);
